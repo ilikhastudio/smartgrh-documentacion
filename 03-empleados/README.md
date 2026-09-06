@@ -1,18 +1,23 @@
 # Empleados
 
-El módulo **Empleados** centraliza la información de las personas que forman parte de la empresa y sirve como punto de acceso a buena parte de su actividad en SmartGRH.
+**Empleados** es el directorio operativo de la plantilla. Desde aquí se dan de alta usuarios, se consultan sus datos, se asignan roles y se accede a las acciones de administración disponibles para cada persona.
 
-Según los permisos asignados, desde este módulo es posible consultar la plantilla, dar de alta empleados, modificar sus datos, asignar roles, importar empleados y acceder a información relacionada con cada persona.
+![Listado de empleados](../assets/capturas/empleados.png)
 
-## Qué puede hacerse
+## Listado y búsqueda
 
-- Consultar y buscar empleados.
-- Crear y editar fichas de empleado.
-- Asignar roles y permisos cuando el usuario tenga autorización.
-- Consultar la ficha individual de una persona.
-- Acceder desde la ficha a información relacionada: asistencia, turnos, ausencias, proyectos, tareas, registros de tiempo, tickets, reconocimientos y otros apartados habilitados.
-- Invitar nuevos miembros mediante correo o enlace de invitación.
-- Importar empleados de forma masiva.
-- Eliminar empleados cuando el permiso correspondiente lo permita.
+La pantalla permite filtrar por empleado y designación, utilizar el buscador y desplegar **Más filtros**. La tabla muestra, entre otros datos, nombre, correo electrónico, rol de usuario, estado y menú de acciones.
 
-> Las opciones visibles dependen del rol, los permisos y los módulos activados para la empresa.
+La etiqueta **Activo** indica que el empleado está habilitado. SmartGRH también diferencia al usuario que está consultando la aplicación mediante la etiqueta **Eres tú**.
+
+## Alta, invitación, importación y exportación
+
+**Agregar Empleado** crea una ficha directamente desde administración. **Invitar Empleado** facilita el alta mediante invitación cuando se desea que la persona complete el acceso. **Importar** permite altas en bloque y **Exportar** genera un listado para tratamiento externo.
+
+La ficha del empleado concentra su información y las secciones relacionadas que estén habilitadas: perfil, documentos, proyectos/tareas si forman parte del plan, ausencias, asistencia, registros de tiempo, reconocimientos y actividad, entre otras. La visibilidad depende de módulos y permisos.
+
+## Roles y permisos
+
+El **rol de usuario** determina el contexto general de acceso, pero la capacidad real para ver, crear, editar, aprobar o eliminar información depende también de los permisos configurados. Un empleado normal no tiene por qué disponer de las mismas acciones que un administrador.
+
+> **Buena práctica:** antes de crear un empleado comprueba departamento, designación, turno inicial y correo electrónico. Una estructura correcta evita problemas posteriores en filtros, cuadrantes y permisos.
