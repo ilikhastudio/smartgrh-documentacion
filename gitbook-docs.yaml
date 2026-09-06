@@ -1,5 +1,14 @@
-spaces:
-  - title: SmartGRH | Centro de Ayuda
-    path: /
-    content:
-      directory: .
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+
+site:
+  title: SmartGRH | Centro de Ayuda
+  structure:
+    - type: space
+      key: space-smartgrh-manual
+      title: Manual de usuario SmartGRH
+      path: manual
+      default: true
+      content:
+        directory: .
+        language: es
