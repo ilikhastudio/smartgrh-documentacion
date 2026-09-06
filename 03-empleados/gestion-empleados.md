@@ -1,21 +1,26 @@
-# Gestionar empleados
+# Gestión de empleados
 
-El listado de empleados es la pantalla de trabajo para administración de plantilla. Utiliza la búsqueda para localizar rápidamente una persona y los filtros para acotar por atributos laborales.
+La gestión diaria de la plantilla se realiza desde **Administración → Empleados**.
 
-## Crear un empleado
+## Buscar una persona
 
-Pulsa **Agregar empleado** y completa los datos requeridos. Dependiendo de la configuración, la ficha puede incluir nombre, correo, teléfono, DNI/documento identificativo, tratamiento, país, género, idioma, acceso al sistema, notificaciones por correo, avatar y datos laborales asociados.
-
-Los campos visibles pueden variar según configuración y campos personalizados.
+Puedes combinar búsqueda de texto con filtros de empleado, designación y los criterios de **Más filtros**. Entre estos últimos están departamento, rol, estado, género y tipo de empleo.
 
 ## Editar
 
-Accede a la acción de edición desde la fila o desde la ficha. La capacidad de cambiar información depende del permiso `edit_employees` y de las reglas configuradas para el perfil.
+La edición permite actualizar datos personales y laborales. SmartGRH vuelve a validar campos únicos y coherencia de fechas. Si se cambia departamento o designación, ten presente que estos datos pueden intervenir en filtros y reglas laborales posteriores.
 
-## Cambiar rol
+## Cambiar el rol
 
-Los usuarios con permiso de cambio de rol pueden asignar un rol desde el listado. Un rol controla qué áreas y acciones puede utilizar la persona dentro de SmartGRH.
+El rol puede modificarse únicamente si el usuario conectado dispone del permiso `change_employee_role`. Un cambio de rol puede alterar de forma inmediata qué pantallas y acciones puede utilizar la persona.
 
-## Acciones rápidas y masivas
+## Activar o desactivar
 
-SmartGRH dispone de acciones rápidas sobre empleados y de operaciones de importación/exportación. Antes de ejecutar una acción sobre varias personas, revisa la selección porque su efecto se aplicará a todos los registros indicados.
+El estado permite diferenciar empleados activos e inactivos. Al establecer un empleado como inactivo, la fecha de baja/último día pasa a ser relevante y no puede ser anterior a la incorporación.
+
+## Eliminar
+
+La eliminación está restringida por permisos. En gestión laboral suele ser preferible **desactivar** a un empleado que simplemente borrar su historial, especialmente cuando existen fichajes, ausencias o planificación vinculada.
+
+> **Recomendación**  
+> Utiliza la eliminación únicamente cuando proceda realmente eliminar el registro. Para una salida de empresa, usa el estado laboral y la fecha de baja según el procedimiento interno de la organización.

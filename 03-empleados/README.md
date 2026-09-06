@@ -1,30 +1,34 @@
 # Empleados
 
-**Empleados** reúne la información laboral y de acceso de las personas de la empresa. Desde esta pantalla se puede buscar y filtrar la plantilla, añadir empleados, invitar usuarios, importar datos, exportar listados y acceder a la ficha individual.
+**Empleados** es el directorio laboral de SmartGRH. Desde aquí se administra quién forma parte de la empresa, su situación activa/inactiva, estructura organizativa, acceso al sistema y la información laboral que después utilizan Asistencia, Turnos, Vacaciones y otros procesos de RR. HH.
 
 ![Listado de empleados](../assets/capturas/empleados.png)
 
-## Listado principal
+## Qué puedes hacer desde esta pantalla
 
-La tabla muestra información como **nombre, correo electrónico, rol de usuario, estado y acciones**. Debajo del nombre puede aparecer la unidad organizativa del empleado y distintivos como nueva contratación o la indicación de que se trata del usuario conectado.
+Desde el listado puedes **buscar y filtrar la plantilla, crear empleados, invitar usuarios, importar altas en bloque, exportar información, cambiar roles cuando tengas permiso y abrir la ficha individual**.
 
-Los filtros permiten localizar empleados por distintos criterios y **Más filtros** amplía las posibilidades de búsqueda disponibles en la instalación.
+La tabla principal muestra **Nombre, Correo electrónico, Rol del usuario, Estado y Acción**. Bajo el nombre puede aparecer el departamento y distintivos como **Nueva contratación** o **Eres tú**.
 
-## Acciones principales
+## Filtros
 
-**Agregar empleado** crea una persona directamente. **Invitar empleado** permite iniciar el alta mediante invitación. **Importar** facilita altas o actualizaciones en volumen y **Exportar** genera un listado según los datos visibles/permisos.
+La barra superior permite filtrar directamente por **Empleado** y **Designación** y realizar una búsqueda por texto. En **Más filtros** SmartGRH incorpora criterios adicionales como **Departamento, Rol, Estado, Género y Tipo de empleo**.
 
-La columna de rol puede permitir cambiar el rol directamente cuando el usuario tiene el permiso correspondiente. El menú de tres puntos de cada fila concentra las acciones adicionales disponibles para ese empleado.
+El estado activo está seleccionado por defecto en la vista estándar, por lo que una persona dada de baja puede no aparecer hasta cambiar el filtro a **Inactivo** o **Todos**.
 
-## La ficha del empleado
+## Acciones de alta
 
-La ficha individual puede agrupar perfil, información laboral, documentos, ausencias, asistencia, turnos y otras pestañas habilitadas. SmartGRH controla cada bloque mediante permisos, por lo que dos usuarios pueden ver una ficha distinta.
+**Agregar empleado** crea directamente la ficha. **Invitar empleado** inicia el alta mediante invitación. **Importar** permite incorporar datos desde fichero y **Exportar** genera un listado según el alcance permitido al usuario.
 
-Continúa con:
+> **Importante**  
+> Crear una persona en SmartGRH no consiste únicamente en registrar su nombre. Departamento, designación, fecha de incorporación, centro de trabajo, estado y permisos pueden afectar posteriormente a turnos, festivos, ausencias y fichajes.
 
-- [Gestionar empleados](gestion-empleados.md)
-- [Ficha del empleado](ficha-empleado.md)
-- [Alta e invitación](invitaciones-importacion.md)
-- [Importar empleados](invitaciones-importacion.md)
+## Continúa por aquí
+
+- [Cómo leer la pantalla de Empleados](lectura-pantalla-empleados.md)
+- [Dar de alta un empleado](alta-empleado.md)
+- [Gestión de empleados](gestion-empleados.md)
+- [Ficha laboral del empleado](ficha-empleado.md)
 - [Roles y permisos](roles-permisos.md)
-- [Baja y estado del empleado](estado-baja.md)
+- [Invitaciones e importación](invitaciones-importacion.md)
+- [Estado y baja](estado-baja.md)

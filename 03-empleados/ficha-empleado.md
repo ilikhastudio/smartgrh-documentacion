@@ -1,30 +1,45 @@
-# Ficha del empleado
+# Ficha laboral del empleado
 
-La ficha individual reúne la información de una persona y sirve como punto de entrada para consultar su actividad laboral.
+La ficha individual concentra la información de una persona y sus relaciones con las funciones laborales de SmartGRH.
 
-## Información personal y laboral
+## Perfil
 
-El perfil puede contener datos identificativos y de contacto, departamento, designación/cargo, estado, fecha de incorporación y otros datos configurados por la empresa. También puede incorporar etiquetas, habilidades y campos personalizados.
+El bloque de perfil puede mostrar **ID de empleado, nombre, designación, departamento, rol, estado, último acceso, fecha de incorporación, antigüedad, fecha de nacimiento, correo, teléfono, dirección, habilidades y otros datos laborales configurados**.
 
-## Pestañas relacionadas con RR. HH.
+Desde esta zona, un usuario con permiso de edición puede abrir el formulario para modificar la información de la persona.
 
-Según permisos y configuración, la ficha puede mostrar secciones de **documentos, reconocimientos, vacaciones/ausencias, asistencia, turnos** y otros bloques laborales.
+## Pestañas laborales relevantes para SmartGRH
 
-### Documentos
+La ficha se construye según módulos y permisos. Dentro del alcance laboral del manual, las pestañas importantes son:
 
-El sistema dispone de gestión de documentos asociados al empleado y permite descargar los archivos cuando el usuario tiene permiso para ver documentación.
+| Pestaña | Para qué sirve |
+|---|---|
+| **Perfil** | Datos personales, organizativos y laborales. |
+| **Asistencia** | Consulta del registro horario relacionado con la persona. |
+| **Vacaciones/Ausencias** | Historial de solicitudes y ausencias visibles. |
+| **Cuota de vacaciones** | Saldos/cuotas asignados al empleado cuando la función está habilitada. |
+| **Documentos** | Documentación asociada al empleado si la empresa utiliza esta función laboral. |
+| **Reconocimiento** | Agradecimientos o premios recibidos. |
+| **Turnos** | Planificación de turnos del empleado. |
+| **Permisos** | Personalización de permisos cuando el administrador dispone de esa capacidad. |
 
-### Ausencias
+El código base contiene además pestañas de otros módulos de Worksuite. **No forman parte de este manual cuando esos módulos no se utilizan en SmartGRH.**
 
-Permite consultar las ausencias relacionadas con esa persona y, según permisos, acceder a su gestión.
+## Asistencia desde la ficha
 
-### Asistencia
+La pestaña de asistencia permite contextualizar el control horario de una sola persona. Para una revisión global de la plantilla utiliza **Administración → Asistencia**.
 
-Muestra información del registro horario del empleado y enlaza con el control de asistencia.
+## Ausencias y cuotas
 
-### Turnos
+La ficha permite consultar la información de vacaciones/ausencias del empleado cuando el usuario tiene permisos para ello. Las cuotas no deben interpretarse aisladamente: el tipo de ausencia, reglas de cómputo, festivos y solicitudes existentes pueden modificar la disponibilidad efectiva.
 
-Permite revisar la planificación de turnos asociada al empleado.
+## Turnos
 
-> **Visibilidad por permisos**  
-> Que una pestaña exista en SmartGRH no significa que todos los usuarios puedan verla. La ficha se adapta a los permisos del usuario conectado.
+La pestaña de turnos permite revisar la planificación asociada a la persona. La administración masiva de calendarios debe realizarse desde **Asignación de turnos**.
+
+## Permisos
+
+La pestaña de permisos está reservada a usuarios con capacidad de administrar permisos. SmartGRH puede trabajar con permisos heredados del rol y, cuando está habilitado, permisos personalizados para un empleado concreto.
+
+> **Visibilidad dinámica**  
+> Dos usuarios pueden abrir la misma ficha y ver pestañas diferentes. Esto es normal: SmartGRH evalúa permisos y módulos habilitados antes de mostrar cada sección.

@@ -28,3 +28,18 @@ CRM, clientes, leads, proyectos, tareas comerciales, tickets, facturación, prod
 ## Pasada visual v1.2 — núcleo de control horario
 
 Se ha realizado una revisión específica de **Panel + fichaje diario + Asistencia** contrastando la interfaz real con las rutas, el trait de Dashboard, AttendanceController y las vistas activas. Se han documentado ventana de fichaje, resolución de turno, entrada/salida, modalidades, IP, radio, coordenadas, máximo de entradas, turnos nocturnos, vistas de asistencia, alta manual, estados y exportación legal.
+
+## Pasada visual v1.3 — Empleados y Organización
+
+Revisado contra rutas, controladores, requests y vistas activas:
+
+- Listado de empleados y filtros rápidos/avanzados.
+- Alta directa, validaciones esenciales e invitación/importación.
+- Estado activo/inactivo y fecha de baja.
+- Cambio de rol condicionado por permiso.
+- Ficha laboral y pestañas laborales relevantes.
+- Departamentos: CRUD, jerarquía y consulta de miembros.
+- Designaciones: CRUD y jerarquía.
+- Reconocimiento: tipos de premio, alta, edición, borrado y permisos.
+
+Se excluyen deliberadamente de la documentación las pestañas y acciones de módulos genéricos de Worksuite que no forman parte del alcance laboral de SmartGRH.

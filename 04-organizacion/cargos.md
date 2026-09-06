@@ -1,15 +1,24 @@
 # Designaciones y cargos
 
+Las **Designaciones** permiten definir puestos o funciones de la plantilla y organizarlos jerárquicamente.
+
 ![Designaciones](../assets/capturas/designacion.png)
 
-La **Designación** representa el cargo, puesto o clasificación organizativa de un empleado.
+## Crear una designación
 
-Desde la pantalla principal puedes buscar, abrir **Más filtros**, crear una designación, exportar el listado y alternar entre vista de lista y jerarquía.
+Pulsa **Agregar Designación** e indica:
 
-La tabla muestra **Nombre**, **Designación padre** y **Acción**. La relación padre permite construir una jerarquía organizativa.
+- **Nombre**: obligatorio y único dentro de la empresa.
+- **Designación padre**: opcional; permite situar el puesto bajo otro nivel de la jerarquía.
 
-## Operaciones disponibles
+Guarda para incorporarla a la estructura.
 
-Los usuarios con permisos adecuados pueden crear, editar, eliminar y cambiar la posición jerárquica de una designación. También existe búsqueda específica y acciones rápidas sobre registros seleccionados.
+## Editar y eliminar
 
-Las designaciones se utilizan como criterio de filtrado en otras áreas, especialmente **Empleados**, **Asistencia** y la configuración de aplicabilidad de determinados festivos.
+La edición y eliminación dependen de los permisos `edit_designation` y `delete_designation`. El permiso de consulta controla quién puede acceder al listado.
+
+Antes de eliminar una designación que ya está en uso, revisa qué empleados dependen de ella y reasígnalos cuando sea necesario.
+
+## Para qué se utiliza
+
+La designación aparece en la ficha del empleado y sirve como criterio en distintas pantallas laborales, entre ellas el listado de empleados y filtros de asistencia. También puede intervenir en la aplicabilidad de festivos.

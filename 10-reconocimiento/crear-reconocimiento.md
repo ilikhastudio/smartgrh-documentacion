@@ -1,17 +1,29 @@
 # Crear un reconocimiento
 
-**Añadir Agradecimiento** permite registrar una distinción interna para un empleado.
+Ve a **Organización → Reconocimiento** y pulsa **Añadir Agradecimiento**.
 
-## Información del reconocimiento
+## Paso 1. Elegir el tipo
 
-El formulario contempla el **tipo de reconocimiento o premio**, la persona que lo recibe, la **fecha**, un resumen o descripción y una imagen cuando se desea asociar un elemento visual.
+Selecciona el tipo de reconocimiento. Si el tipo que necesitas no existe y tienes permiso para gestionarlos, SmartGRH permite crear uno nuevo desde el propio flujo.
 
-## Tipos de reconocimiento
+Un tipo de premio define su título, icono, color y descripción. Estos elementos ayudan a mantener una presentación homogénea.
 
-Desde el propio flujo puede existir acceso para crear tipos de reconocimiento. Un tipo puede incorporar nombre, color y descripción, lo que ayuda a mantener una clasificación uniforme.
+## Paso 2. Elegir destinatario
 
-## Consulta
+En **Concedido a** selecciona el empleado que recibirá el reconocimiento. Este campo es obligatorio.
 
-La ficha del reconocimiento muestra, entre otros datos, la fecha de concesión y el resumen. Los usuarios con permisos adecuados pueden editar o eliminar registros.
+## Paso 3. Indicar la fecha
 
-> **Recomendación:** utiliza tipos estables —por ejemplo, antigüedad, logro o agradecimiento— en lugar de crear un tipo nuevo para cada registro.
+Selecciona la fecha en la que se concede. También es obligatoria.
+
+## Paso 4. Añadir contexto
+
+Puedes escribir un resumen que explique el motivo y adjuntar una fotografía cuando proceda.
+
+## Paso 5. Guardar
+
+Guarda el formulario. El reconocimiento aparecerá en el listado para los usuarios que tengan permiso de visualización y también puede estar disponible desde la ficha laboral del empleado.
+
+## Editar o eliminar
+
+Estas acciones dependen de los permisos de reconocimiento. La eliminación masiva está especialmente restringida y requiere alcance suficiente.

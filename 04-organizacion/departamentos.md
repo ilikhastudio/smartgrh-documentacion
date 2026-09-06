@@ -1,11 +1,24 @@
 # Departamentos
 
+Los **Departamentos** permiten dividir la empresa en áreas o equipos y crear una jerarquía organizativa.
+
 ![Departamentos](../assets/capturas/departamentos.png)
 
-Los **Departamentos** agrupan empleados por unidad organizativa. La pantalla ofrece búsqueda, filtros, alta, exportación y cambio entre vista de lista y jerarquía.
+## Crear un departamento
 
-La tabla muestra **Nombre**, **Departamento padre** y **Acción**. Un departamento puede depender de otro, lo que permite representar estructuras con varios niveles.
+Pulsa **Agregar Departamento** e informa:
 
-SmartGRH dispone además de operaciones para obtener los miembros de un departamento y para cambiar su relación jerárquica.
+- **Nombre**: obligatorio y único dentro de la empresa.
+- **Departamento padre**: opcional, para construir una estructura por niveles.
 
-Los departamentos se utilizan en filtros de empleados, asistencia, turnos y en reglas de aplicabilidad laboral.
+## Consultar miembros
+
+SmartGRH dispone de consulta de miembros por departamento. Esto permite utilizar la estructura organizativa como criterio real de gestión, no únicamente como información descriptiva.
+
+## Editar y eliminar
+
+La capacidad de editar o eliminar depende de los permisos correspondientes. Antes de borrar un departamento, revisa los empleados asociados y la posible utilización de ese departamento en filtros o reglas laborales.
+
+## Uso en SmartGRH
+
+Los departamentos se utilizan para organizar empleados y pueden intervenir en **Asistencia, Turnos, Festivos y otras operaciones segmentadas**.
