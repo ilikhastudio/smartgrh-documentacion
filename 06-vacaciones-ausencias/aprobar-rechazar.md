@@ -1,11 +1,9 @@
-# Aprobar o rechazar ausencias
+# Aprobar o rechazar solicitudes
 
-Las solicitudes pueden pasar por un flujo de revisión. Los usuarios con autorización para aprobar o rechazar ausencias disponen de las acciones correspondientes desde el listado o el detalle.
+Los responsables con permiso de aprobación pueden revisar solicitudes pendientes y decidir su estado.
 
-SmartGRH también contempla una fase de **preaprobación por responsable** cuando la configuración de permisos de managers así lo establece.
+SmartGRH dispone de acciones de **aprobación, preaprobación y rechazo**, además de acciones rápidas cuando se gestionan varios registros.
 
-## Estados
+Antes de aprobar, revisa fechas, duración, tipo de ausencia, cuota y posibles solicitudes relacionadas. La aplicación puede mostrar una ausencia vinculada cuando existe una relación relevante con otra solicitud.
 
-Una solicitud puede encontrarse, entre otros, en estado pendiente, aprobada o rechazada. Las acciones disponibles dependen del estado actual y de los permisos del usuario.
-
-La eliminación de ausencias aprobadas puede estar protegida por un permiso adicional distinto del permiso general de eliminación.
+Una solicitud aprobada pasa a formar parte de la planificación laboral del empleado y puede aparecer en calendarios y en el resumen de asistencia.

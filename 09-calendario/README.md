@@ -1,15 +1,12 @@
 # Mi calendario
 
-**Mi calendario** reúne en una vista temporal los elementos que afectan al usuario según los módulos habilitados en su cuenta.
+**Mi calendario** ofrece una vista temporal de la información relevante para el usuario.
 
 ![Mi calendario](../assets/capturas/mi-calendario.png)
 
-## Navegación
+La barra superior permite filtrar por **Tipo** y navegar con anterior, siguiente y **Hoy**. Las vistas disponibles son **Mes, Semana, Día y Agenda**.
 
-Puedes avanzar o retroceder entre periodos, regresar a **Hoy** y alternar entre **Mes, Semana, Día y Agenda**. El filtro **Tipo** permite limitar los elementos mostrados cuando existen distintas clases de eventos.
+El calendario base de SmartGRH puede integrar distintas clases de información según módulos y permisos. En el uso laboral, la información que se muestre dependerá de las funciones activadas para la empresa y de lo que el usuario tenga autorización para ver.
 
-El contenido del calendario puede alimentarse de funcionalidades como eventos, festivos, ausencias, tareas, tickets u otros módulos habilitados. Por eso el calendario de dos usuarios puede no mostrar exactamente la misma información.
-
-## Uso recomendado
-
-Utilízalo como visión personal de planificación. Para modificar la fuente de un evento —por ejemplo un festivo o una ausencia— entra en el módulo que originó ese elemento en lugar de intentar corregir únicamente su representación en el calendario.
+> **No todos los usuarios ven lo mismo**  
+> El contenido del calendario se compone teniendo en cuenta los permisos. Si falta un elemento esperado, revisa primero el acceso del usuario y el estado de la función relacionada.

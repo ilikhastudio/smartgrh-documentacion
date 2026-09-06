@@ -1,23 +1,22 @@
 # Reconocimiento
 
-**Reconocimiento** permite registrar agradecimientos o distinciones internas y conservar un histórico asociado a la organización.
+**Reconocimiento** permite registrar agradecimientos o premios concedidos a empleados y mantener un histórico visible según permisos.
 
-![Módulo de Reconocimiento](../assets/capturas/reconocimiento.png)
+![Reconocimiento](../assets/capturas/reconocimiento.png)
 
-## Listado
+La pantalla dispone de filtro de periodo, búsqueda, **Más filtros**, **Añadir agradecimiento**, exportación y dos modos de visualización.
 
-La tabla permite buscar, filtrar por duración/fechas, seleccionar registros y consultar el nombre del premio o reconocimiento y la fecha en la que fue concedido.
+## Crear un reconocimiento
 
-## Añadir agradecimiento
+Un reconocimiento puede incluir **tipo de premio, empleado destinatario, fecha, resumen y fotografía**. Los tipos disponibles deben estar activos para poder seleccionarlos.
 
-El botón **Añadir Agradecimiento** inicia el alta de un reconocimiento. Las opciones disponibles dependen de los permisos y de la configuración de premios de la empresa.
+## Consultar, editar y eliminar
 
-## Premios y vistas
+Los permisos pueden permitir ver reconocimientos de toda la empresa, únicamente los propios, los creados por el usuario o combinaciones de estos alcances. La misma lógica se aplica a edición y eliminación.
 
-SmartGRH contempla la gestión de premios y reconocimientos como elementos relacionados. Los iconos de vista permiten cambiar entre las perspectivas habilitadas para esta funcionalidad.
+## Acciones masivas
 
-## Exportación
+Existe una acción rápida de eliminación para usuarios con permiso global de borrado.
 
-**Exportar** permite obtener los registros para archivo o análisis externo.
-
-> **Uso recomendado:** define nombres de premios consistentes y registra la fecha real de concesión. Así el histórico de reconocimientos permanece útil a lo largo del tiempo.
+> **Privacidad y alcance**  
+> La visibilidad de reconocimientos no depende únicamente de que el módulo esté activo. También se controla por el alcance del permiso `view_appreciation`.

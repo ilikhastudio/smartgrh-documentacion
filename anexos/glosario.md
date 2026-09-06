@@ -1,25 +1,27 @@
 # Glosario
 
-**Asistencia / fichaje**  
-Registro que identifica la presencia o jornada realizada por un empleado.
+**Asistencia** — Registro de presencia y jornada de un empleado en una fecha.
 
-**Entrada**  
-Hora de inicio registrada para una jornada o tramo de trabajo.
+**Designación** — Cargo, puesto o clasificación organizativa.
 
-**Salida**  
-Hora de finalización registrada.
+**Departamento** — Unidad organizativa a la que pertenece un empleado.
 
-**Turno**  
-Planificación horaria asignada a un empleado para una fecha determinada.
+**Fichaje** — Registro de entrada o salida de la jornada.
 
-**Media jornada**  
-Situación en la que el día computa parcialmente. SmartGRH puede distinguir entre la primera y la segunda mitad del día.
+**Media jornada** — Ausencia o asistencia correspondiente a la primera o segunda mitad del día.
 
-**Festivo**  
-Fecha marcada en el calendario como no laborable para los empleados a los que resulte aplicable.
+**Turno** — Horario de referencia asignado a un empleado para una fecha.
 
-**Modalidad de trabajo**  
-Lugar o modalidad desde la que se realiza el trabajo: oficina, casa u otra ubicación.
+**Cuadrante** — Matriz de empleados, días y turnos asignados.
 
-**Ubicación del fichaje**  
-Información geográfica asociada a un registro cuando la configuración y el dispositivo permiten obtenerla.
+**Cuota de ausencia** — Saldo o derecho disponible de un tipo de permiso/vacación.
+
+**Días laborables** — Cómputo que excluye los días no laborables definidos por las reglas aplicables.
+
+**Días naturales** — Cómputo que incluye todos los días del intervalo según la configuración del tipo.
+
+**Teletrabajo pendiente** — Solicitud creada que todavía no ha sido aprobada ni rechazada.
+
+**Aplicabilidad** — Criterios que determinan a qué empleados afecta una regla, tipo o festivo.
+
+**Registro legal de jornada** — Exportación específica del control horario para revisión o archivo.

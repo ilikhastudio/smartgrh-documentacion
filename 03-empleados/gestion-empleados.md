@@ -1,21 +1,21 @@
 # Gestionar empleados
 
-La pantalla de empleados muestra la plantilla a la que el usuario tiene acceso. Los responsables y administradores pueden disponer de acciones adicionales de alta, edición, eliminación o gestión masiva.
+El listado de empleados es la pantalla de trabajo para administración de plantilla. Utiliza la búsqueda para localizar rápidamente una persona y los filtros para acotar por atributos laborales.
 
-## Alta de un empleado
+## Crear un empleado
 
-Al crear un empleado, SmartGRH permite registrar sus datos de identificación y contacto y asociarlo a la estructura de la empresa. Entre los datos gestionados por el sistema se encuentran el nombre, correo electrónico, DNI, teléfono, país, tratamiento, género, idioma y fotografía de perfil. La instalación también puede disponer de campos personalizados y etiquetas o habilidades.
+Pulsa **Agregar empleado** y completa los datos requeridos. Dependiendo de la configuración, la ficha puede incluir nombre, correo, teléfono, DNI/documento identificativo, tratamiento, país, género, idioma, acceso al sistema, notificaciones por correo, avatar y datos laborales asociados.
 
-Durante el alta se asigna el rol correspondiente. Todo empleado recibe el rol base de empleado y, cuando procede, puede recibir además otro rol autorizado. La posibilidad de cambiar roles está protegida por un permiso específico.
+Los campos visibles pueden variar según configuración y campos personalizados.
 
-## Editar un empleado
+## Editar
 
-La edición permite mantener actualizada la información de la persona. Algunas acciones solo están disponibles para usuarios con permiso de edición sobre empleados.
+Accede a la acción de edición desde la fila o desde la ficha. La capacidad de cambiar información depende del permiso `edit_employees` y de las reglas configuradas para el perfil.
 
-## Eliminar empleados
+## Cambiar rol
 
-La eliminación está restringida por permisos. Antes de utilizarla conviene comprobar que la persona no necesita conservar acceso y que los datos históricos que deban mantenerse estén correctamente registrados.
+Los usuarios con permiso de cambio de rol pueden asignar un rol desde el listado. Un rol controla qué áreas y acciones puede utilizar la persona dentro de SmartGRH.
 
-## Acciones masivas
+## Acciones rápidas y masivas
 
-La lista incorpora acciones rápidas para operar sobre varios registros cuando el usuario dispone de autorización. SmartGRH valida los permisos antes de ejecutar operaciones sensibles.
+SmartGRH dispone de acciones rápidas sobre empleados y de operaciones de importación/exportación. Antes de ejecutar una acción sobre varias personas, revisa la selección porque su efecto se aplicará a todos los registros indicados.

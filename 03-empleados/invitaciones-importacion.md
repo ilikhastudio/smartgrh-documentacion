@@ -1,15 +1,16 @@
-# Invitaciones e importación de empleados
+# Importar empleados
 
-SmartGRH dispone de dos mecanismos para agilizar el alta de usuarios: **invitaciones** e **importación masiva**.
+La importación está pensada para altas o actualizaciones en volumen. Desde **Empleados → Importar** se carga el fichero y se procesa la información.
 
-## Invitar a un miembro
+## Flujo recomendado
 
-Los usuarios con permiso de alta de empleados pueden acceder a la función de invitación. El sistema permite enviar una invitación y también generar un enlace de alta cuando esta opción esté disponible.
+1. Prepara el fichero con los datos de empleados.
+2. Importa primero una muestra pequeña.
+3. Revisa la correspondencia de datos y procesa la importación.
+4. Comprueba los registros creados.
+5. Corrige cualquier excepción antes de repetir una carga completa.
 
-Utiliza el enlace únicamente con la persona a la que va dirigido y evita publicarlo en canales abiertos.
+SmartGRH dispone de un proceso específico para informar de errores o excepciones generadas durante la importación.
 
-## Importar empleados
-
-La importación permite preparar altas de forma masiva. El proceso dispone de una fase de carga y otra de procesamiento, lo que permite validar y procesar los datos antes de incorporarlos definitivamente.
-
-Si se produce una incidencia durante una importación en cola, SmartGRH dispone de información de excepción para facilitar la revisión del proceso.
+> **Evita duplicados**  
+> Revisa especialmente los identificadores y correos electrónicos antes de importar. Una importación masiva no debe utilizarse como sustituto de una limpieza previa del fichero.

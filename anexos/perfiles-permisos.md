@@ -1,13 +1,20 @@
-# Perfiles, permisos y visibilidad
+# Perfiles y permisos
 
-SmartGRH utiliza permisos para determinar qué información puede consultar y qué acciones puede ejecutar cada usuario. Por este motivo, dos personas pueden acceder al mismo módulo y ver opciones diferentes.
+SmartGRH utiliza permisos para controlar tanto el acceso a módulos como el alcance de los registros visibles.
 
-A efectos de este manual distinguimos tres perfiles funcionales:
+## Áreas laborales con control de permisos
 
-- **Empleado:** consulta y gestiona principalmente su propia información y solicitudes.
-- **Responsable:** puede disponer de funciones de revisión, aprobación o consulta sobre las personas a su cargo.
-- **Administrador:** configura la organización y gestiona información global cuando sus permisos lo permiten.
+Entre otras, existen comprobaciones para **empleados, asistencia, turnos, vacaciones/ausencias, festivos, departamentos, designaciones, reconocimientos y documentos de empleados**.
 
-Estos perfiles son una ayuda para entender el manual; la capacidad real siempre viene determinada por los roles y permisos configurados en SmartGRH.
+Un permiso puede controlar acciones distintas: **ver, añadir, editar, eliminar, aprobar/rechazar, exportar o gestionar**. En determinadas funciones el alcance puede ser `all`, `owned`, `added` o `both` —todos, propios, añadidos por el usuario o combinación—.
 
-Cuando una opción descrita en el manual no aparezca en pantalla, debe comprobarse primero si el usuario dispone del permiso correspondiente y si el módulo está habilitado para la empresa.
+## Cómo diagnosticar una opción que no aparece
+
+1. Confirma que el módulo o función está habilitado para la empresa.
+2. Revisa el rol del usuario.
+3. Comprueba el permiso específico de la acción.
+4. Si existe alcance de registros, revisa si el usuario es propietario o creador del dato.
+5. Cierra sesión y vuelve a entrar si se acaba de modificar el rol y la interfaz no se ha actualizado.
+
+> **Principio de mínimo acceso**  
+> Concede únicamente los permisos necesarios para la función laboral de cada perfil. Las operaciones masivas, exportaciones y cambios de configuración deberían quedar reservadas a responsables autorizados.

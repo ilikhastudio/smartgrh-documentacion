@@ -1,31 +1,17 @@
-# Solicitudes de teletrabajo
+# Crear y gestionar solicitudes de teletrabajo
 
-## Crear una solicitud
+Pulsa **Nueva solicitud de teletrabajo** y elige si se trata de **un solo día** o de **un intervalo**. Indica la fecha inicial, la fecha final cuando corresponda y un motivo opcional.
 
-El usuario puede elegir entre:
-
-- **Un solo día**.
-- **Un intervalo de fechas**.
-
-Debe indicarse la fecha inicial y, para intervalos, la fecha final. La fecha final no puede ser anterior a la inicial. También puede añadirse un motivo de hasta 1.000 caracteres.
-
-SmartGRH no permite solicitar fechas anteriores al día actual y comprueba posibles solapamientos con otras solicitudes pendientes o aprobadas. También comprueba ausencias aprobadas dentro del intervalo solicitado.
-
-Una nueva solicitud queda en estado **Pendiente**.
+Una solicitud nueva queda **pendiente** y se notifica a los administradores de la empresa.
 
 ## Cancelar
 
-El solicitante puede cancelar una solicitud mientras continúe pendiente. Una solicitud ya resuelta no puede cancelarse mediante esta acción.
+El empleado puede cancelar únicamente sus propias solicitudes que todavía estén pendientes. Una solicitud aprobada o rechazada ya no puede cancelarse mediante esta acción.
 
-## Aprobar o rechazar
+## Aprobar
 
-Los usuarios autorizados pueden aprobar una solicitud pendiente. Para rechazarla es obligatorio indicar un motivo de rechazo.
+Solo un administrador puede aprobar una solicitud pendiente. Al aprobarla, SmartGRH registra quién la aprobó y cuándo, y notifica al empleado.
 
-## Estados
+## Rechazar
 
-- **Pendiente**
-- **Aprobada**
-- **Rechazada**
-- **Cancelada**
-
-El listado permite filtrar por estos estados.
+El rechazo también está reservado a administradores y requiere indicar un **motivo de rechazo**. El empleado recibe la notificación correspondiente.

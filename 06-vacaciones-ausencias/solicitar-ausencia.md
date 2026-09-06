@@ -1,22 +1,9 @@
 # Solicitar una ausencia
 
-Al crear una solicitud se selecciona el empleado, el tipo de ausencia, la fecha o intervalo y la duración correspondiente.
+Crea una solicitud desde el área de vacaciones/ausencias y selecciona el tipo correspondiente. Indica fecha o intervalo, duración y motivo/información requerida.
 
-## Duración
+SmartGRH admite solicitudes de **día completo, varios días, primera mitad y segunda mitad del día**. En determinados casos también puede trabajar con horas de inicio y fin.
 
-SmartGRH contempla solicitudes de día completo, varios días y **media jornada**. Para las medias jornadas distingue entre **primera mitad** y **segunda mitad** del día.
+Antes de guardar, el sistema revisa distintas condiciones: disponibilidad del tipo de ausencia, solicitudes ya existentes, asistencia registrada, cuota del empleado y reglas configuradas para ese permiso.
 
-La solicitud puede incluir un motivo y, cuando la configuración lo requiere, información horaria adicional.
-
-## Comprobaciones automáticas
-
-Antes de registrar la ausencia, SmartGRH realiza distintas validaciones. Entre ellas puede comprobar:
-
-- La cuota disponible para el tipo de ausencia.
-- Solicitudes pendientes o aprobadas que coincidan con las fechas.
-- Fichajes ya registrados para esas fechas.
-- Festivos aplicables al empleado.
-- Fines de semana y reglas de cómputo configuradas.
-- Condiciones del tipo de ausencia para el empleado.
-
-Si ya existe asistencia registrada, el sistema puede advertir de la situación antes de continuar.
+Si la solicitud se guarda correctamente, pasará al estado definido por el flujo de aprobación y quedará visible para los usuarios autorizados.

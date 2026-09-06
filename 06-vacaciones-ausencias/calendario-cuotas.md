@@ -1,17 +1,10 @@
-# Calendario y cuotas de ausencias
+# Calendario y cuotas de ausencia
 
-## Calendario
+La vista de calendario permite entender las ausencias en contexto temporal. La cuota indica la disponibilidad del empleado para los tipos que tienen un número limitado de días.
 
-La vista de calendario facilita la revisión visual de las ausencias registradas. La información mostrada respeta los permisos de visualización y, cuando corresponde, las reglas aplicables al responsable del empleado.
+SmartGRH dispone de gestión específica de **cuotas de ausencia por empleado** y de informes de cuota. Según configuración, los días de vacaciones disponibles pueden mostrarse también dentro del área de asistencia.
 
-## Mis ausencias
+El cálculo puede variar por tipo de ausencia. Un permiso configurado en **días laborables** puede excluir festivos; uno configurado en **días naturales** puede incluirlos.
 
-SmartGRH dispone de una vista de ausencias personales para que cada usuario consulte sus propios registros y solicitudes.
-
-## Cuotas por empleado
-
-El sistema gestiona cuotas de ausencia por empleado y tipo. Estas cuotas intervienen en la validación de nuevas solicitudes y permiten controlar el saldo disponible.
-
-## Exportación
-
-Los usuarios con permiso de exportación pueden generar una exportación global de ausencias para su análisis o archivo externo.
+> **La cuota no es universal**  
+> Cada tipo de ausencia tiene sus propias reglas. No utilices el saldo de un tipo para inferir automáticamente el saldo de otro.

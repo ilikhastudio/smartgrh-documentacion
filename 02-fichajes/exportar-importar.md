@@ -1,19 +1,20 @@
-# Exportar e importar fichajes
+# Importar y exportar asistencia
 
-## Exportar asistencia
+SmartGRH permite trabajar con los datos de asistencia fuera de la aplicación cuando el usuario dispone de permisos de exportación o importación.
 
-Los usuarios autorizados pueden exportar la información de asistencia a Excel.
+## Exportar
 
-SmartGRH dispone de exportación individual por empleado y de exportación general, pudiendo tener en cuenta filtros como periodo, empleado, departamento o cargo.
+Desde **Exportar** pueden generarse ficheros del periodo consultado. Existen operaciones para exportar la asistencia de un empleado, exportar el conjunto filtrado y generar el registro legal de jornada.
 
-La exportación individual utiliza un nombre identificativo con el empleado y el periodo. La exportación general genera un archivo correspondiente al mes seleccionado.
+La exportación individual utiliza un nombre similar a `Asistencia_Empleado_mes-año.xlsx`; la general utiliza una denominación del tipo `Asistencias_mes_año.xlsx`.
 
-## Registro de jornada legal
+Antes de exportar, revisa **mes, año, empleado, departamento y designación**, porque esos criterios pueden determinar el contenido resultante.
 
-El sistema incluye una exportación específica del **registro de jornada legal** en formato Excel. Esta opción está destinada a obtener un documento estructurado de control horario del periodo y los filtros seleccionados.
+## Importar
 
-## Importar asistencia
+La opción **Importar** permite incorporar registros desde un fichero preparado para SmartGRH. El proceso consta de carga, correspondencia/procesamiento y validación. Si el fichero contiene datos que no pueden procesarse, SmartGRH puede informar de excepciones de importación.
 
-Los perfiles con permiso para añadir asistencia pueden acceder a la función **Importar Excel**. Esta herramienta permite incorporar registros de forma masiva siguiendo el formato de importación admitido por SmartGRH.
+> **Recomendación**  
+> Para cargas grandes, prueba primero con unas pocas filas. Así puedes comprobar el formato antes de incorporar el fichero completo.
 
-Antes de realizar una importación masiva es recomendable comprobar el periodo, los empleados y las horas incluidas en el archivo. Si el sistema informa de incidencias durante el proceso, revise los registros afectados antes de continuar con correcciones manuales.
+La importación no sustituye la revisión: una vez terminada, vuelve al mes correspondiente y confirma que las jornadas aparecen como esperabas.

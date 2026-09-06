@@ -1,21 +1,30 @@
 # Ficha del empleado
 
-La ficha individual reúne la información del empleado y los apartados relacionados disponibles para el usuario que la consulta.
+La ficha individual reúne la información de una persona y sirve como punto de entrada para consultar su actividad laboral.
 
-Dependiendo de los módulos y permisos activos, pueden aparecer apartados de **perfil, actividad, documentos, inmigración, promociones o incrementos, reconocimientos, proyectos, tickets, tareas, ausencias, asistencia, registros de tiempo, turnos y permisos personalizados**.
+## Información personal y laboral
 
-## Asistencia y turnos
+El perfil puede contener datos identificativos y de contacto, departamento, designación/cargo, estado, fecha de incorporación y otros datos configurados por la empresa. También puede incorporar etiquetas, habilidades y campos personalizados.
 
-Desde la ficha puede consultarse la asistencia del empleado cuando se dispone del permiso de visualización de fichajes. También puede mostrarse su planificación de turnos si el módulo de asistencia y el permiso de cuadrante están habilitados.
+## Pestañas relacionadas con RR. HH.
 
-## Ausencias
+Según permisos y configuración, la ficha puede mostrar secciones de **documentos, reconocimientos, vacaciones/ausencias, asistencia, turnos** y otros bloques laborales.
 
-El apartado de ausencias permite consultar las solicitudes y registros relacionados con el empleado de acuerdo con los permisos de visualización configurados.
+### Documentos
 
-## Proyectos, tareas y tiempos
+El sistema dispone de gestión de documentos asociados al empleado y permite descargar los archivos cuando el usuario tiene permiso para ver documentación.
 
-Cuando estos módulos están activos, la ficha sirve como acceso contextual a proyectos, tareas y registros de tiempo asociados a la persona.
+### Ausencias
 
-## Permisos personalizados
+Permite consultar las ausencias relacionadas con esa persona y, según permisos, acceder a su gestión.
 
-Los administradores autorizados pueden encontrar un apartado específico de permisos. SmartGRH puede utilizar los permisos heredados del rol o una configuración personalizada para un empleado concreto.
+### Asistencia
+
+Muestra información del registro horario del empleado y enlaza con el control de asistencia.
+
+### Turnos
+
+Permite revisar la planificación de turnos asociada al empleado.
+
+> **Visibilidad por permisos**  
+> Que una pestaña exista en SmartGRH no significa que todos los usuarios puedan verla. La ficha se adapta a los permisos del usuario conectado.

@@ -1,19 +1,17 @@
-# Cuadrante de turnos
+# Cuadrante mensual de turnos
 
-El cuadrante permite revisar la planificación de turnos por periodo y empleado. SmartGRH dispone de vistas resumen y de calendario individual del empleado.
+El cuadrante muestra una fila por empleado y una columna por día. Utiliza el selector de año y las pestañas de meses para navegar por el periodo.
 
-## Asignar o modificar un turno
+## Asignar un turno a un día
 
-Los usuarios autorizados pueden marcar un turno para un empleado y una fecha concreta, crear asignaciones y modificar o eliminar asignaciones existentes.
+Cuando el usuario dispone de permisos de gestión, puede utilizar la acción de marcado sobre una combinación empleado/fecha para crear o cambiar la asignación.
 
-## Asignación masiva
+Antes de asignar, comprueba que el turno existe en **Gestionar turnos** y que sus horas están correctamente configuradas.
 
-La función de asignación masiva permite aplicar turnos a varios empleados o fechas sin editar cada celda individualmente. El sistema contempla tanto asignaciones simples como escenarios con varios turnos.
+## Calendario individual
 
-## Eliminación masiva
+SmartGRH dispone de una consulta de calendario de turnos por empleado. Resulta útil para revisar la planificación de una persona fuera de la matriz general.
 
-Existe una herramienta específica para eliminar planificaciones de turno en bloque. Esta acción debe utilizarse con especial atención, ya que afecta al cuadrante de múltiples fechas o empleados.
+## Turnos nocturnos
 
-## Exportar
-
-Los usuarios con permiso de exportación pueden generar una exportación del cuadrante utilizando los filtros de periodo, empleado, departamento y tipo de vista disponibles en el proceso.
+Los turnos que terminan al día siguiente requieren una configuración horaria coherente. Esta información también afecta a cómo se interpreta una salida de asistencia posterior a medianoche.

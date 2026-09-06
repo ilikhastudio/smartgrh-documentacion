@@ -1,33 +1,41 @@
-# Preguntas frecuentes y solución de problemas
+# Preguntas frecuentes
 
-## No aparece el botón para fichar
+## No aparece el botón Marcar Entrada
 
-Comprueba que el usuario tiene permitido el auto-fichaje, que el botón de fichaje está habilitado y que no existe una restricción de plan, rol o configuración de asistencia que lo impida.
+Comprueba que la empresa permita fichar al empleado, que el botón esté habilitado en Configuración de asistencia y que tu usuario tenga acceso. También pueden intervenir restricciones de jornada, turno, IP o ubicación.
 
-## SmartGRH solicita mi ubicación
+## SmartGRH no acepta mi ubicación
 
-La empresa puede tener activado el guardado de ubicación o la validación por radio. El navegador necesita permiso de localización para completar esa comprobación.
+Revisa los permisos de ubicación del navegador. Si la empresa utiliza control por radio, el dispositivo debe obtener coordenadas suficientemente precisas y encontrarse dentro de la zona permitida.
 
-## El fichaje no se acepta desde mi red
+## He olvidado fichar la salida
 
-Puede estar activa la comprobación por IP. En ese caso el fichaje debe realizarse desde una de las direcciones autorizadas por la empresa.
+Comunica la incidencia al responsable. Un usuario autorizado puede regularizar el registro desde Asistencia añadiendo la hora real y, si procede, una observación.
 
-## Un empleado aparece ausente en un festivo
+## ¿Por qué aparezco como ausente?
 
-Revisa que el festivo exista en el calendario correcto, que corresponda al ámbito aplicable y que estés consultando el mes y año adecuados. Después vuelve a comprobar Asistencia.
+La vista mensual compara asistencia, calendario, turnos, festivos y ausencias. Revisa primero el día concreto y si existe una entrada/salida válida o una ausencia aprobada.
 
-## El horario mostrado en el Panel no es correcto
+## Mi turno es incorrecto
 
-Revisa la asignación de turnos del empleado para esa fecha y la definición del turno. Si el fichaje ya se produjo, evita modificar datos sin comprobar antes el impacto sobre la asistencia registrada.
+Revisa el cuadrante de Asignación de turnos. Si existe una solicitud de cambio pendiente, el turno efectivo puede no haberse actualizado todavía.
 
-## No veo una opción que aparece en este manual
+## No puedo solicitar teletrabajo
 
-SmartGRH adapta la interfaz a **módulos, plan, rol y permisos**. Una función puede existir en la plataforma y no estar habilitada para una empresa o usuario concreto.
+La empresa debe tener activadas las solicitudes de teletrabajo. Además, SmartGRH impide fechas pasadas y puede bloquear periodos que se solapen con otra solicitud o con una ausencia aprobada.
 
-## No aparece un evento en Mi calendario
+## No puedo solicitar vacaciones
 
-Comprueba primero el módulo que origina el evento y el filtro **Tipo** del calendario. Mi calendario es una vista agregada; la fuente debe estar correctamente registrada.
+Comprueba fechas, cuota disponible y solicitudes existentes. También pueden influir festivos, fines de semana y conflictos con asistencia registrada.
 
-## Antes de contactar con soporte
+## ¿Puedo exportar la asistencia?
 
-Anota usuario afectado, fecha y hora, módulo, acción realizada y mensaje mostrado. Una captura de pantalla completa suele acelerar el diagnóstico, especialmente en incidencias de fichaje, turnos o permisos.
+Sí, cuando tu perfil dispone de permisos de exportación. SmartGRH ofrece exportaciones por empleado, generales y una exportación legal de registro de jornada.
+
+## ¿Por qué veo menos opciones que otro usuario?
+
+La interfaz depende del rol, permisos y configuración de empresa. Es normal que un empleado, un responsable y un administrador no vean los mismos botones.
+
+## ¿Qué hago antes de cambiar los ajustes de asistencia?
+
+Valora el impacto sobre toda la plantilla. Los cambios en IP, ubicación, radio, auto-fichaje, botón de fichaje o teletrabajo pueden modificar inmediatamente la operativa diaria.

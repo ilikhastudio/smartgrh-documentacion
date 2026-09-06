@@ -1,25 +1,19 @@
-# Vistas y filtros de asistencia
+# Vistas, filtros y estados de asistencia
 
-SmartGRH ofrece distintas formas de analizar los registros de jornada.
+Los filtros de Asistencia permiten revisar desde toda la empresa hasta un único empleado. La combinación habitual es **mes + año** y, cuando se necesita segmentar, **departamento, designación o empleado**.
 
-## Resumen
+## Filtros
 
-Es la vista general mensual. Permite identificar rápidamente días trabajados, ausencias, retrasos, medias jornadas y festivos.
+**Empleado** limita el resultado a una persona. **Departamento** permite revisar una unidad organizativa. **Designación** filtra por cargo o puesto. **Mes** y **Año** determinan el periodo de trabajo.
 
-## Por empleado
+## Interpretar el resumen
 
-La vista **Empleado** concentra la información de una persona concreta. Se puede seleccionar empleado, mes y año, y consultar el detalle de sus registros.
+La vista mensual utiliza indicadores para que una situación pueda identificarse sin abrir cada jornada. La leyenda visible en SmartGRH incluye estados laborales y tipos de festivo. Los colores exactos pueden variar con el tema de la aplicación, por lo que siempre debe utilizarse la leyenda de la pantalla como referencia.
 
-Cuando la exportación está permitida, desde esta vista se puede obtener un Excel individual del periodo seleccionado.
+## Días sin fichaje
 
-## Por hora
+Un día sin presencia registrada puede deberse a varias causas: ausencia, vacaciones, día libre, festivo, turno no asignado o falta real de fichaje. Evita corregir automáticamente una celda sin comprobar estas circunstancias.
 
-La vista **Por hora** está orientada al análisis del tiempo registrado. Permite revisar la asistencia desde una perspectiva horaria y aplicar los filtros disponibles para acotar la información.
+## Navegación en tablas anchas
 
-## Por ubicación
-
-Cuando los fichajes incluyen coordenadas de geolocalización, la vista **Ubicación** permite consultar los registros sobre un mapa.
-
-La información puede filtrarse por fecha, empleado, departamento y estado de retraso, según los permisos disponibles. Solo aparecen en esta vista los registros que disponen de latitud y longitud.
-
-> La ausencia de un fichaje en el mapa no implica necesariamente que no exista: puede significar que ese registro no contiene coordenadas de ubicación.
+En meses completos la matriz puede superar el ancho de la pantalla. SmartGRH permite desplazamiento horizontal para acceder a todos los días. En pantallas pequeñas puede resultar más cómodo utilizar las vistas detalladas por empleado.

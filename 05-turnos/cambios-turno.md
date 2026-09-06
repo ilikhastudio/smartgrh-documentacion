@@ -1,15 +1,10 @@
 # Solicitudes de cambio de turno
 
-Cuando esta funcionalidad está habilitada, un empleado puede solicitar un cambio sobre un turno planificado.
+La pestaña **Solicitudes de cambio de turno** gestiona peticiones para sustituir un turno asignado por otro.
 
-La solicitud registra el nuevo turno solicitado y el motivo. Al enviarse queda inicialmente en estado **pendiente de revisión**.
+Una solicitud guarda el nuevo turno solicitado y el motivo indicado por el usuario. Al crearse queda en estado **pendiente** (`waiting`).
 
-Los responsables autorizados pueden **aceptar** o **rechazar** la solicitud. También existen acciones rápidas para cambiar el estado de varias solicitudes.
+Los responsables con permiso pueden **aprobar** o **rechazar** la solicitud. Una aprobación pasa a estado aceptado; un rechazo la deja como rechazada. También existen acciones rápidas para gestionar varias solicitudes cuando el permiso lo permite.
 
-## Estados habituales
-
-- **Pendiente:** la solicitud está esperando decisión.
-- **Aceptada:** el cambio ha sido aprobado.
-- **Rechazada:** el cambio no ha sido autorizado.
-
-La gestión de estas solicitudes está vinculada al permiso de gestión de turnos de empleados.
+> **Pendiente no significa aplicado**  
+> Hasta que la solicitud no sea aprobada, no debe interpretarse como un cambio definitivo del cuadrante.

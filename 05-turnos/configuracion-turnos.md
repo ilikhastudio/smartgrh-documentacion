@@ -1,7 +1,10 @@
-# Configuración de turnos
+# Gestionar tipos de turno
 
-En Configuración, los administradores autorizados pueden gestionar los **tipos de turno** utilizados posteriormente en el cuadrante.
+Desde **Gestionar turnos** se mantienen los horarios que posteriormente se asignan en el cuadrante.
 
-SmartGRH permite crear, editar y eliminar configuraciones de turno y establecer un **turno predeterminado**. Este turno puede utilizarse como referencia en procesos relacionados con asistencia y planificación.
+Un turno define la referencia horaria de la jornada. La configuración puede incluir nombre, horas de inicio y finalización, color/identificación visual y otras propiedades disponibles en la instalación.
 
-La configuración de los turnos debe realizarse antes de construir el cuadrante para evitar asignaciones incoherentes.
+SmartGRH permite establecer un **turno predeterminado**. Este turno puede utilizarse como referencia cuando no existe otra asignación específica, dependiendo de la lógica configurada para la empresa.
+
+> **No cambies un turno histórico sin revisar su impacto**  
+> Si un horario ya se ha utilizado durante meses, valora crear un nuevo turno para el nuevo horario en vez de reutilizar el anterior. Así se mantiene una interpretación más clara de las planificaciones.
