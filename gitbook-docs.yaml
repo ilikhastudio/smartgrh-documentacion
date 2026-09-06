@@ -1,4 +1,5 @@
-organization: ilikhastudio
 spaces:
-  - title: SmartGRH
-    path: ./
+  - title: SmartGRH | Centro de Ayuda
+    path: /
+    content:
+      directory: .
