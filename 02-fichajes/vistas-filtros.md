@@ -1,19 +1,39 @@
 # Vistas, filtros y estados de asistencia
 
-Los filtros de Asistencia permiten revisar desde toda la empresa hasta un único empleado. La combinación habitual es **mes + año** y, cuando se necesita segmentar, **departamento, designación o empleado**.
+La misma información de asistencia puede necesitar lecturas distintas. SmartGRH separa la supervisión mensual, el análisis individual, el análisis horario y, cuando está habilitado, el análisis geográfico.
 
-## Filtros
+## Filtros superiores
 
-**Empleado** limita el resultado a una persona. **Departamento** permite revisar una unidad organizativa. **Designación** filtra por cargo o puesto. **Mes** y **Año** determinan el periodo de trabajo.
+| Filtro | Para qué sirve |
+| --- | --- |
+| **Empleado** | Limitar la consulta a una persona. |
+| **Departamento** | Revisar una unidad organizativa concreta. |
+| **Designación** | Filtrar por puesto o cargo. |
+| **Mes** | Seleccionar el mes de trabajo. |
+| **Año** | Seleccionar el ejercicio. |
 
-## Interpretar el resumen
+Los filtros pueden combinarse. Si obtienes pocos o ningún resultado, comprueba que no hayas dejado seleccionado un departamento o designación incompatible con el empleado buscado.
 
-La vista mensual utiliza indicadores para que una situación pueda identificarse sin abrir cada jornada. La leyenda visible en SmartGRH incluye estados laborales y tipos de festivo. Los colores exactos pueden variar con el tema de la aplicación, por lo que siempre debe utilizarse la leyenda de la pantalla como referencia.
+## Resumen
 
-## Días sin fichaje
+Es la vista principal y muestra **empleados × días del mes**. Está pensada para detectar rápidamente excepciones. La leyenda diferencia festivos nacionales/autonómicos/locales, vacaciones, días libres, presencia, ausencia y otros estados.
 
-Un día sin presencia registrada puede deberse a varias causas: ausencia, vacaciones, día libre, festivo, turno no asignado o falta real de fichaje. Evita corregir automáticamente una celda sin comprobar estas circunstancias.
+## Empleado
 
-## Navegación en tablas anchas
+Muestra la asistencia agrupada por persona y permite trabajar con más detalle sobre sus jornadas. Úsala para comprobar entradas y salidas antes de editar.
 
-En meses completos la matriz puede superar el ancho de la pantalla. SmartGRH permite desplazamiento horizontal para acceder a todos los días. En pantallas pequeñas puede resultar más cómodo utilizar las vistas detalladas por empleado.
+## Por Hora
+
+Facilita la lectura de tiempo trabajado y jornadas registradas. Es especialmente útil cuando existen varias entradas/salidas o turnos flexibles.
+
+## Por ubicación
+
+Solo se muestra si **Guardar ubicación actual** está habilitado en Configuración de asistencia. Para aparecer en el mapa, el registro debe contener coordenadas.
+
+## Estados que requieren contexto
+
+**Presente** indica que existe asistencia. **Ausente** señala que SmartGRH no encuentra presencia para una jornada en la que esperaba actividad, pero antes de actuar debes revisar las demás reglas laborales. **Vacaciones**, **Día libre** y los distintos tipos de **Festivo** explican por qué no debe esperarse un fichaje normal.
+
+**Otros** agrupa situaciones que no encajan en las categorías principales de la leyenda.
+
+> Los colores ayudan a leer el calendario, pero el significado funcional es el estado. Si cambia el tema visual de SmartGRH, utiliza el texto/leyenda y no memorices únicamente el color.

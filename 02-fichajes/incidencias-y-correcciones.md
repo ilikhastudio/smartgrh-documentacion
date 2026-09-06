@@ -1,21 +1,31 @@
 # Incidencias y correcciones de fichaje
 
-Las correcciones permiten reflejar la jornada real cuando falta una entrada, una salida o algún dato fue registrado de forma incorrecta.
+Las incidencias de control horario deben corregirse sobre el registro real, no creando movimientos ficticios. Este criterio evita duplicados y facilita que el resumen mensual sea coherente.
 
-## Qué puede editarse
+## El empleado olvidó la entrada
 
-Con los permisos adecuados, un registro puede incluir o modificar el turno, las horas de entrada y salida, IP, ubicación, modalidad de trabajo, observaciones, retraso y condición de media jornada.
+Comprueba que ese día era laborable para el empleado y revisa turno, festivos y ausencias. Si realmente falta la entrada, un usuario con permiso puede crear la asistencia manual con la hora acreditada. Consulta la guía [Un empleado olvidó fichar](../13-guias-practicas/empleado-olvido-fichar.md).
 
-## Media jornada
+## Falta la salida
 
-SmartGRH diferencia entre jornada completa y media jornada. Cuando corresponde, puede indicarse **primera mitad** o **segunda mitad** del día. Esta información se relaciona con la configuración del turno y con las ausencias de media jornada.
+Localiza la jornada abierta y edítala/completa con la hora correcta. No crees una segunda entrada para “cerrar” el día. Si el turno cruza medianoche, revisa la planificación antes de modificar fechas.
 
-## Turnos que pasan de medianoche
+## La hora es incorrecta
 
-En un turno nocturno, una hora de salida aparentemente anterior a la entrada puede corresponder al día siguiente. SmartGRH contempla esta situación al interpretar el intervalo.
+Abre el registro existente y corrige entrada o salida. Revisa después el total trabajado y el estado del día. Si existe un campo de observaciones, deja constancia del motivo administrativo.
 
-## Solapamientos
+## Aparece Ausente pero no debería
 
-El sistema valida los intervalos de asistencia para evitar registros incompatibles o superpuestos. Si una corrección no puede guardarse, revisa si ya existe otra asistencia para el mismo periodo.
+Antes de crear asistencia, verifica **vacaciones/ausencias aprobadas**, festivo aplicable, día libre y turno. La X roja del Resumen es una señal para revisar, no una orden automática de añadir un fichaje.
 
-> **Trazabilidad laboral:** una corrección debe describir lo ocurrido realmente. Cuando la organización utilice un procedimiento interno de incidencias, añade una observación suficientemente clara.
+## Fichaje rechazado por ubicación o IP
+
+Comprueba si el empleado estaba realmente en una modalidad autorizada, si el navegador dispone de permiso de ubicación, qué centro tiene asociado el empleado y qué restricciones están activas. No amplíes el radio ni añadas una IP solo para resolver un caso puntual sin validar primero la política de la empresa.
+
+## Fichaje fuera de horario
+
+Los turnos estrictos pueden limitar la ventana de entrada. Revisa el turno asignado, el margen de entrada anticipada y la configuración del botón de fichaje. Si se trata de una incidencia legítima, RR. HH. puede corregirla administrativamente en lugar de alterar el turno histórico.
+
+## Se alcanzó el máximo de entradas
+
+Cada turno puede limitar el número de fichajes de entrada por día. Si el empleado ya ha alcanzado ese máximo, SmartGRH rechaza nuevas entradas. Comprueba que no existan duplicados antes de cambiar la configuración del turno.

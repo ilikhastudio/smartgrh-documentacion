@@ -24,3 +24,7 @@
 ## Fuera de alcance deliberadamente
 
 CRM, clientes, leads, proyectos, tareas comerciales, tickets, facturación, productos, pedidos, propuestas, contratos comerciales, gastos y módulos generales heredados de Worksuite. Su existencia en el código no implica que formen parte de SmartGRH laboral.
+
+## Pasada visual v1.2 — núcleo de control horario
+
+Se ha realizado una revisión específica de **Panel + fichaje diario + Asistencia** contrastando la interfaz real con las rutas, el trait de Dashboard, AttendanceController y las vistas activas. Se han documentado ventana de fichaje, resolución de turno, entrada/salida, modalidades, IP, radio, coordenadas, máximo de entradas, turnos nocturnos, vistas de asistencia, alta manual, estados y exportación legal.

@@ -1,24 +1,35 @@
 # Consultar fichajes
 
-La consulta de asistencia debe empezar siempre por el **periodo** y el **ámbito de empleados**. Selecciona mes y año y, si necesitas acotar la información, utiliza Empleado, Departamento o Designación.
+La revisión de asistencia debe comenzar definiendo **qué periodo y qué personas** quieres analizar. De esta forma evitas interpretar datos de otro mes, departamento o empleado.
 
-## Vista Resumen
+## 1. Selecciona el periodo
 
-La vista **Resumen** presenta una fila por empleado y una columna por día. Es la mejor vista para responder preguntas como “¿quién no tiene fichaje el martes?”, “¿qué días fueron festivos?” o “¿qué empleados estaban de vacaciones?”.
+Elige **Mes** y **Año**. SmartGRH mantiene el resumen dentro de ese periodo. Si estás investigando una incidencia concreta, selecciona después el empleado para reducir el resultado.
 
-Utiliza la leyenda inferior para distinguir cada situación. Si un día requiere revisión, entra en el detalle del empleado o utiliza la acción disponible sobre el día correspondiente.
+## 2. Acota la plantilla
+
+Puedes combinar **Empleado**, **Departamento** y **Designación**. Departamento resulta útil para responsables de área; Designación permite revisar personas con un mismo puesto/cargo; Empleado muestra un caso individual.
+
+## 3. Revisa el Resumen
+
+La vista **Resumen** es la matriz mensual. Localiza la fila del empleado y el día que quieres comprobar. Utiliza la leyenda para diferenciar presencia, ausencia, vacaciones, día libre y festivos.
+
+Si la tabla supera el ancho de la pantalla, desplázate horizontalmente. Esto es normal en meses completos.
+
+## 4. Abre el contexto antes de corregir
+
+Cuando un día parezca incorrecto, comprueba primero la planificación. Una ausencia aparente puede ser un festivo aplicable, vacaciones aprobadas, día libre o un día sin turno. Solo después entra en el detalle o utiliza la acción de edición.
 
 ## Vista Empleado
 
-La vista **Empleado** concentra los registros de una persona y facilita revisar horas de entrada y salida, duración y posibles incidencias. Es la vista recomendada antes de modificar un registro porque permite entender el contexto de la jornada.
+**Empleado** concentra la asistencia de una persona. Es la vista recomendada para investigar entradas/salidas, duración y registros concretos antes de realizar una corrección.
 
-## Vista Por hora
+## Vista Por Hora
 
-La vista **Por hora** está orientada al análisis temporal. Resulta útil para revisar el total trabajado y comparar las jornadas registradas durante el periodo.
+**Por Hora** está orientada a comparar el tiempo registrado. Es útil cuando la pregunta no es solo “¿vino?” sino “¿cuánto tiempo consta trabajado?”.
 
-## Vista por ubicación
+## Vista Por ubicación
 
-Cuando la empresa guarda coordenadas de fichaje y el usuario tiene acceso a esta función, SmartGRH puede mostrar registros en un mapa. **Solo aparecen registros que realmente tengan latitud y longitud guardadas**; un fichaje sin coordenadas no puede representarse en esta vista.
+Esta vista aparece únicamente cuando está activo el guardado de ubicación. El mapa utiliza las coordenadas almacenadas en los fichajes; por tanto, un registro antiguo o manual sin latitud/longitud no aparecerá en el mapa aunque sí exista en Asistencia.
 
-> **Consejo de revisión**  
-> Antes de considerar una jornada incorrecta, comprueba turno asignado, festivos, vacaciones/ausencias y si se trata de una media jornada.
+> **Buena práctica:** aplica filtros antes de exportar. El **Resumen actual** utiliza el periodo y ámbito seleccionados, por lo que conviene comprobarlos antes de generar el archivo.

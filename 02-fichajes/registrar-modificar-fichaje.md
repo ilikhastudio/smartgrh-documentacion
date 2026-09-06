@@ -1,31 +1,31 @@
-# Registrar o corregir un fichaje
+# Registrar o modificar un fichaje
 
-Los usuarios con permiso de gestión pueden crear o modificar una asistencia desde **Asistencia**. Esta función sirve para regularizaciones justificadas: olvidos de fichaje, correcciones de hora, incidencias de ubicación o registros administrativos.
+Esta función está destinada a responsables con permiso para **añadir o gestionar asistencia**. Se utiliza para incidencias reales: una entrada olvidada, una salida que no se registró, una corrección autorizada o una carga administrativa.
 
-## Datos del registro
+## Crear asistencia manual
 
-El formulario puede solicitar:
+Desde **Administración → Asistencia**, pulsa **Marcar Asistencia**. SmartGRH permite marcar por **Mes** o por **Fecha**, incluyendo selección de varias fechas en el flujo correspondiente.
 
-| Campo | Para qué sirve |
-|---|---|
-| Turno | Relaciona la jornada con el horario previsto. |
-| Entrada | Hora real de inicio. |
-| IP de entrada | Dirección registrada o indicada para el inicio. |
-| Retraso | Marca la entrada como tardía cuando proceda. |
-| Ubicación de entrada | Localización asociada al fichaje. |
-| Trabajando desde | Oficina, casa u otro lugar. |
-| Otro lugar | Texto adicional cuando se selecciona otra modalidad. |
-| Salida | Hora real de finalización. |
-| IP / ubicación de salida | Datos equivalentes para el final de jornada. |
-| Media jornada | Identifica una jornada parcial. |
-| Primera / segunda mitad | Determina qué mitad del día corresponde. |
-| Observación | Explica una incidencia o ajuste. |
+El formulario puede solicitar **hora de entrada**, **centro/ubicación**, **modalidad de trabajo**, **hora de salida**, ubicación/modalidad de salida, indicador de **retraso**, **media jornada** y su mitad correspondiente. Si eliges modalidad **Otro**, debes indicar el lugar.
 
-## Validaciones importantes
+## Entrada y salida no tienen por qué compartir ubicación
 
-SmartGRH puede impedir o advertir sobre registros que se solapen con otros fichajes. También comprueba información relacionada con la media jornada y puede mostrar avisos si el día coincide con un festivo.
+SmartGRH conserva información independiente para entrada y salida. Esto permite reflejar casos en los que una persona inicia la jornada en un centro y la termina desde otra ubicación autorizada.
 
-En turnos nocturnos, si la hora de salida es menor que la entrada, el sistema puede tratar la salida como perteneciente al día siguiente.
+## Media jornada
 
-> **Buena práctica**  
-> Utiliza el campo de observación para dejar contexto cuando una corrección manual sea relevante. Facilita las revisiones posteriores del registro horario.
+Al marcar **Media jornada**, el sistema permite identificar la primera o segunda mitad cuando corresponde. Antes de guardar, SmartGRH puede comprobar conflictos con ausencias y reglas de media jornada.
+
+## Modificar un registro existente
+
+Abre el registro desde la vista de asistencia correspondiente y utiliza la acción de edición disponible para tu rol. Revisa especialmente fecha, turno, entrada y salida. No cambies una jornada sin comprobar antes la planificación y las ausencias aprobadas.
+
+## Turnos nocturnos
+
+Si la salida es cronológicamente anterior a la entrada porque el turno atraviesa medianoche, SmartGRH contempla el cambio de día. No “arregles” manualmente la fecha para forzar una duración positiva sin comprobar el turno asignado.
+
+## Evitar duplicados y solapamientos
+
+Antes de crear una jornada manual, comprueba si ya existe un registro para el empleado y ese intervalo. La asistencia debe representar lo ocurrido realmente; no deben crearse entradas adicionales para compensar un fichaje incorrecto.
+
+> **Trazabilidad operativa:** cuando corrijas un fichaje, utiliza observaciones cuando estén disponibles para dejar claro el motivo de la intervención administrativa.

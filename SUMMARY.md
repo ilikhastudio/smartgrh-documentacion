@@ -10,6 +10,7 @@
   * [Consultar fichajes](02-fichajes/consultar-fichajes.md)
   * [Registrar o modificar un fichaje](02-fichajes/registrar-modificar-fichaje.md)
   * [Vistas y filtros de asistencia](02-fichajes/vistas-filtros.md)
+  * [Cómo leer la pantalla de Asistencia](02-fichajes/lectura-pantalla-asistencia.md)
   * [Geolocalización, IP y modalidad](02-fichajes/geolocalizacion-ip-modalidad.md)
   * [Incidencias y correcciones](02-fichajes/incidencias-y-correcciones.md)
   * [Exportar e importar fichajes](02-fichajes/exportar-importar.md)

@@ -1,40 +1,31 @@
-# Panel y fichaje diario
+# Panel de inicio
 
-El **Panel** es la pantalla de inicio de SmartGRH. Para un empleado es el punto principal de la jornada: muestra el día, la hora actual, el turno previsto y el estado del fichaje. Para responsables y administradores sigue funcionando como acceso rápido a la operativa diaria.
+El **Panel** es la pantalla de trabajo diario de SmartGRH. Para la mayoría de empleados es el punto de entrada al sistema: desde aquí pueden comprobar su jornada prevista, registrar la entrada o salida y consultar rápidamente su calendario.
 
 ![Panel principal de SmartGRH](../assets/capturas/panel.png)
 
-## Qué ves en el panel
+## Qué estás viendo
 
-La tarjeta principal resume la jornada prevista. SmartGRH puede mostrar el **turno asignado**, la hora esperada de entrada y salida y una línea temporal de referencia. Si todavía no existe un registro de asistencia para ese día, la jornada aparece como no iniciada.
+La pantalla se divide en tres zonas principales. A la izquierda está el **menú de navegación**, cuya composición depende del rol y de los módulos laborales habilitados. En el centro aparece la **tarjeta de jornada**, y a la derecha una vista rápida de **Mi calendario**.
 
-El botón **Marcar entrada** inicia el registro horario cuando el fichaje del empleado está permitido. Una vez iniciada la jornada, la misma zona del panel pasa a reflejar el estado del fichaje y permite continuar con la salida cuando corresponda.
+La tarjeta central muestra la fecha y hora actuales, el **turno aplicable**, las horas previstas de entrada y salida y una línea temporal de referencia. Cuando todavía no existe asistencia registrada, SmartGRH muestra la jornada como no iniciada y ofrece **Marcar Entrada**.
 
-A la derecha se muestra una vista compacta de **Mi calendario**, con navegación por mes, semana, día o agenda. Su contenido depende de las funciones habilitadas para la empresa y de los permisos del usuario.
+> **El horario mostrado no es un fichaje.** Es la planificación prevista para ese día. La jornada solo queda registrada cuando SmartGRH confirma una entrada o salida.
 
-## Registrar la entrada
+## Estado de la jornada
 
-1. Accede a SmartGRH con tu usuario.
-2. Comprueba que el turno y las horas previstas corresponden al día actual.
-3. Pulsa **Marcar entrada**.
-4. Completa la información adicional que solicite tu empresa, si la hubiera.
-5. Espera la confirmación de SmartGRH antes de cerrar la ventana o abandonar la página.
+Antes de fichar, el Panel puede indicar **Sin jornadas registradas**. Después de registrar la entrada, la tarjeta cambia para reflejar que existe una jornada abierta. Cuando se registra la salida, el sistema completa ese registro de asistencia.
 
-Según la configuración laboral, el fichaje puede registrar también **IP, ubicación y modalidad de trabajo**. La empresa puede restringir el fichaje a determinadas IP o a un radio geográfico alrededor del centro de trabajo.
+SmartGRH resuelve el turno que corresponde al empleado teniendo en cuenta la asignación del día y, cuando procede, turnos que atraviesan la medianoche. Si no encuentra una asignación utilizable, puede recurrir al turno predeterminado configurado por la empresa. Si no existe ningún turno válido, el fichaje puede quedar bloqueado y el empleado deberá contactar con RR. HH.
 
-> **Importante**  
-> La hora registrada es la que acepta SmartGRH al guardar el fichaje. No debe considerarse fichada una entrada o salida hasta que la aplicación confirme la operación.
+## Acciones de la cabecera
 
-## Registrar la salida
+En la parte superior pueden aparecer accesos de cuenta, información, avisos o notificaciones y cierre de sesión. Su disponibilidad depende de la configuración y de los permisos del usuario. El botón **Actualizar Plan** pertenece a la gestión de la cuenta de la empresa y no forma parte del control horario diario.
 
-Cuando ya existe una entrada abierta, SmartGRH permite completar la jornada con la salida. El registro resultante conserva la hora de entrada y salida y puede incorporar ubicación, IP, modalidad de trabajo y observaciones según la configuración de la empresa.
+## Mi calendario
 
-Si el turno atraviesa la medianoche, SmartGRH puede interpretar la salida como correspondiente al día siguiente cuando la hora de fin sea anterior a la de inicio. Esto evita que los turnos nocturnos se calculen como jornadas negativas.
+La zona derecha ofrece una vista rápida del calendario. Puede cambiarse entre **Mes, Semana, Día y Agenda**. Para consultar el calendario con más espacio y filtros, utiliza la sección [Mi calendario](../09-calendario/README.md).
 
-## ¿Qué ocurre si me equivoco al fichar?
+## Siguiente paso
 
-Un empleado no debe crear registros adicionales para intentar corregir un error. La corrección se realiza desde **Asistencia** por un usuario con permiso para añadir o editar registros. Consulta [Registrar o corregir un fichaje](../02-fichajes/registrar-modificar-fichaje.md).
-
-## Mi calendario del panel
-
-El calendario lateral es una vista rápida. La pantalla completa se encuentra en **Mi calendario**, donde pueden utilizarse filtros y cambiar entre las vistas mensual, semanal, diaria y agenda.
+Consulta [Fichar desde el Panel](fichar-desde-panel.md) para ver el proceso completo de entrada y salida y qué validaciones puede aplicar SmartGRH.

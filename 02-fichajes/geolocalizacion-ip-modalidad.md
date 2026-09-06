@@ -1,21 +1,29 @@
 # Geolocalización, IP y modalidad de trabajo
 
-SmartGRH puede complementar cada fichaje con información de contexto para reforzar la trazabilidad del registro horario.
+SmartGRH puede complementar la hora del fichaje con información sobre **desde dónde se ha registrado**. Estas funciones se controlan desde Configuración de asistencia y no tienen por qué estar activas en todas las empresas.
 
-## Ubicación
+## Modalidad de trabajo
 
-Cuando está activada la opción **Guardar ubicación actual**, el sistema puede almacenar las coordenadas asociadas al fichaje. Si además se utiliza **comprobación por radio**, SmartGRH valida que la persona se encuentre dentro de la distancia permitida respecto a la ubicación configurada.
+Al fichar puede seleccionarse **Oficina**, **Casa** u **Otro**. Cuando se elige Otro, SmartGRH solicita una descripción del lugar. La modalidad se guarda junto al registro y puede existir tanto para la entrada como para la salida.
 
-La vista por localización sólo puede representar registros que dispongan de coordenadas válidas. Un fichaje antiguo o creado manualmente puede no aparecer en el mapa si no contiene esa información.
+## Dirección IP
 
-## Restricción por IP
+SmartGRH guarda la IP asociada al fichaje. Si la empresa activa la **restricción por IP**, el fichaje presencial puede rechazarse cuando la IP actual no figure entre las autorizadas.
 
-La empresa puede definir una o varias direcciones IP autorizadas. Con esta opción activa, el fichaje puede quedar condicionado a que la conexión del usuario se realice desde una de esas IP.
+Una IP autorizada no demuestra por sí sola la ubicación física exacta del empleado; es una regla técnica adicional de acceso al fichaje.
 
-## Dónde se trabaja
+## Geolocalización y radio
 
-Un registro de asistencia puede distinguir entre **Oficina**, **Casa** u **Otro lugar**. En este último caso puede existir un campo adicional para indicar el lugar concreto.
+Cuando está habilitado el control por radio, SmartGRH utiliza las coordenadas actuales y las compara con el centro asociado al empleado o, en su defecto, con el centro predeterminado. Si la distancia supera el radio configurado, el fichaje puede rechazarse.
 
-## Recomendaciones ante incidencias
+Para que esta comprobación funcione, el navegador debe poder obtener la ubicación. Si el usuario deniega el permiso o el dispositivo no entrega coordenadas válidas, la operación puede no superar la validación.
 
-Si el navegador bloquea la ubicación, la IP de la oficina ha cambiado o el empleado está trabajando desde una localización autorizada distinta, debe comunicarse la incidencia al responsable antes de crear correcciones manuales.
+## Guardar ubicación actual
+
+Es una opción distinta de restringir por radio. **Guardar ubicación actual** permite almacenar coordenadas para poder consultar posteriormente la vista de asistencia por ubicación. Un registro sin coordenadas seguirá existiendo, pero no podrá representarse en el mapa.
+
+## Trabajo desde casa
+
+El código de fichaje trata la modalidad **Casa** de forma específica respecto a determinadas restricciones presenciales. El empleado debe elegir siempre la modalidad real; la política de cuándo está autorizado trabajar desde casa corresponde a la organización y, cuando esté habilitado, al flujo de [Teletrabajo](../07-teletrabajo/README.md).
+
+> **Privacidad:** la empresa debe configurar estas funciones de acuerdo con su política interna y obligaciones de información. SmartGRH no necesita activar todas las comprobaciones simultáneamente.
