@@ -6,11 +6,11 @@ Los ajustes determinan cómo se comportan las funciones de SmartGRH. En la insta
 
 - [Configuración de la empresa](empresa.md)
 - [Configuración de asistencia](asistencia.md)
-- [Ubicación e IP](ubicacion-ip.md)
-- [Recordatorios e informes](recordatorios-informes.md)
-- [Teletrabajo y funciones opcionales](funciones-opcionales.md)
+- [Ubicación e IP](asistencia.md)
+- [Recordatorios e informes](asistencia.md)
+- [Teletrabajo y funciones opcionales](asistencia.md)
 - [Turnos y rotaciones](turnos.md)
-- [Vacaciones y tipos de ausencia](vacaciones.md)
+- [Vacaciones y tipos de ausencia](ausencias.md)
 - [Notificaciones laborales](notificaciones.md)
 
 > **Solo administradores**  

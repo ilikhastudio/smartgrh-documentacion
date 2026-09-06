@@ -24,7 +24,7 @@ Continúa con:
 
 - [Gestionar empleados](gestion-empleados.md)
 - [Ficha del empleado](ficha-empleado.md)
-- [Alta e invitación](alta-invitacion.md)
+- [Alta e invitación](invitaciones-importacion.md)
 - [Importar empleados](invitaciones-importacion.md)
 - [Roles y permisos](roles-permisos.md)
 - [Baja y estado del empleado](estado-baja.md)

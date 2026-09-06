@@ -6,4 +6,4 @@ SmartGRH permite trabajar tanto en **vista de lista** como en **vista jerárquic
 
 - [Designaciones y cargos](cargos.md)
 - [Departamentos](departamentos.md)
-- [Cómo utilizar la jerarquía](jerarquia.md)
+- [Cómo utilizar la jerarquía](estructura-y-jerarquia.md)

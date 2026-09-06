@@ -1,41 +1,59 @@
 # Configuración de asistencia
 
-Esta pantalla define buena parte del comportamiento del fichaje y debe modificarse con especial cuidado.
+**Ajustes → Configuración de asistencia** determina cómo funciona el fichaje para toda la empresa. Es una de las pantallas más sensibles de SmartGRH: un cambio aquí puede afectar al botón de fichaje, a las validaciones de ubicación, a los recordatorios o a módulos completos como el teletrabajo.
 
-## Opciones de fichaje
+## Fichaje del empleado
 
-**Permitir cambios de turno** habilita el flujo relacionado con solicitudes de cambio. **Guardar ubicación actual** permite asociar coordenadas a la asistencia. **Permitir que el empleado fiche** controla el auto-registro de entrada y salida. SmartGRH también contempla **fichaje automático** y una ubicación predeterminada para ese proceso.
+La configuración permite controlar si los empleados pueden realizar su propia **entrada y salida** y si el botón de fichaje debe estar disponible en su interfaz. Por eso dos empresas —o dos configuraciones distintas— pueden mostrar un Panel parecido pero ofrecer un comportamiento de fichaje diferente.
 
-## Radio geográfico
+También existen opciones de **fichaje automático**. Si se utilizan, revisa cuidadosamente su comportamiento antes de aplicarlas a toda la plantilla.
 
-La opción de comprobación por radio activa la validación geográfica y permite definir la distancia admitida. Si está activa, el dispositivo debe poder proporcionar una ubicación válida.
+## Guardar la ubicación
 
-## Botón de fichaje
+**Guardar ubicación actual** permite asociar coordenadas al registro de asistencia cuando el dispositivo y el navegador proporcionan ese dato. Esta opción es distinta de obligar a fichar dentro de un radio: se puede guardar una posición sin convertirla necesariamente en una restricción de acceso.
 
-La configuración puede mostrar u ocultar el botón de fichaje para empleados. Esto explica por qué una cuenta puede utilizar el control horario desde el Panel y otra no mostrar la misma acción.
+## Validación por radio
+
+La comprobación por **radio geográfico** sirve para validar la distancia entre el lugar desde el que ficha el empleado y la ubicación configurada por la empresa. Al activarla deben definirse correctamente los datos de referencia y la distancia permitida.
+
+El usuario necesita conceder acceso a la ubicación en su navegador o dispositivo. Un permiso denegado, una ubicación imprecisa o determinadas políticas del dispositivo pueden impedir completar la validación.
 
 ## Direcciones IP autorizadas
 
-La comprobación por IP permite añadir varias direcciones. Si se activa esta restricción, revisa que las IP públicas de las ubicaciones autorizadas sean estables o estén correctamente mantenidas.
+SmartGRH puede mantener una lista de **direcciones IP permitidas** para el fichaje. Esta medida es útil cuando se quiere limitar el registro de jornada a redes corporativas concretas.
 
-## Informe mensual
+No debe confundirse una IP interna del ordenador con la IP pública que ve la aplicación. Si una sede utiliza IP pública dinámica, la dirección puede cambiar y requerir mantenimiento.
 
-SmartGRH contempla el envío de un **informe mensual de asistencia** y la selección de los roles que deben recibirlo.
+## Horarios y disponibilidad del fichaje
 
-## Semana y recordatorios
+La lógica de fichaje se combina con los turnos asignados. Los turnos pueden tener comportamiento **estricto o flexible** y existen reglas relacionadas con la entrada anticipada y los márgenes que determinan cuándo debe mostrarse o permitirse el fichaje.
 
-Puede definirse el primer día de la semana. También existe un recordatorio de asistencia, con estado de activación y número de minutos de margen configurables.
+Si un empleado no puede fichar y el botón debería estar disponible, revisa en este orden: **permiso/configuración de fichaje → turno del día → horario del turno → margen de entrada → día libre o ausencia → restricciones de ubicación/IP**.
 
-## Who's in
+## Cambios de turno
 
-La opción **Who's in — Ver ubicación del equipo** habilita la funcionalidad correspondiente para consultar información de presencia/localización cuando esté disponible.
+La configuración puede habilitar las **solicitudes de cambio de turno**. Si esta función está desactivada, el flujo correspondiente no estará disponible aunque existan pantallas o permisos relacionados con turnos.
 
-## Cuota de vacaciones en Asistencia
+## Informe mensual de asistencia
 
-**Mostrar días de vacaciones disponibles en asistencia** añade al contexto de asistencia la información de saldo disponible del empleado.
+SmartGRH contempla el envío de un **informe mensual de asistencia** y permite determinar qué perfiles deben recibirlo. Antes de activarlo, comprueba destinatarios y configuración de notificaciones para evitar envíos innecesarios.
+
+## Primer día de la semana y recordatorios
+
+Puede definirse el **primer día de la semana**, lo que afecta a determinadas representaciones del calendario. También se puede activar un **recordatorio de asistencia** y configurar el margen temporal asociado.
+
+## Who's In
+
+La función **Who's In / Ver ubicación del equipo** permite habilitar la consulta de presencia o localización del equipo cuando la información necesaria está disponible y el usuario tiene acceso a ella.
+
+## Saldo de vacaciones dentro de Asistencia
+
+La opción para **mostrar los días de vacaciones disponibles en asistencia** incorpora el saldo de vacaciones al contexto de control horario, evitando tener que abandonar la sección para consultar esa información.
 
 ## Solicitudes de teletrabajo
 
-**Habilitar solicitudes de teletrabajo** activa el módulo de peticiones de trabajo remoto. Si se desactiva, el flujo deja de estar disponible para los usuarios.
+**Habilitar solicitudes de teletrabajo** activa el flujo de peticiones de trabajo remoto. Cuando está desactivado, las rutas y acciones del módulo dejan de estar disponibles para el uso normal de los empleados.
 
-> **Antes de guardar:** cualquier cambio en ubicación, IP, auto-fichaje o fichaje del empleado puede afectar inmediatamente a toda la plantilla.
+## Antes de guardar cambios
+
+> **Recomendación de administración:** si vas a modificar radio, ubicación, IP, auto-fichaje o disponibilidad del botón, prueba primero el resultado con una cuenta de empleado. Son ajustes capaces de impedir el fichaje de toda la plantilla si se configuran incorrectamente.

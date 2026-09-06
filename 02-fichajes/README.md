@@ -1,43 +1,41 @@
-# Control horario y asistencia
+# Fichajes y control horario
 
-**Asistencia** es el área desde la que se consulta y administra el registro de jornada de la plantilla. Permite revisar el mes, identificar incidencias, consultar un empleado concreto, analizar horas, registrar o corregir asistencias e importar o exportar información.
+**Asistencia** es el núcleo del registro de jornada en SmartGRH. Desde aquí se consulta quién ha trabajado, qué horario se ha registrado, qué incidencias existen y qué información debe utilizarse para el control horario de un periodo.
 
-![Vista de asistencia](../assets/capturas/asistencia.png)
+![Vista general de asistencia](../assets/capturas/asistencia.png)
 
-## Cómo está organizada la pantalla
+## Qué puedes hacer en esta sección
 
-En la parte superior se encuentran los filtros de **Empleado**, **Departamento**, **Designación**, **Mes** y **Año**. Estos filtros afectan a la información mostrada y, cuando corresponde, a las exportaciones realizadas.
+La pantalla permite filtrar por **Empleado**, **Departamento**, **Designación**, **Mes** y **Año**; revisar el calendario mensual de la plantilla; entrar en el detalle de un empleado; analizar registros por hora; registrar o corregir asistencias; importar datos y generar exportaciones.
 
-Las acciones principales son **Marcar asistencia**, **Importar** y **Exportar**. El acceso a cada una depende de los permisos del usuario.
+Según la configuración y los permisos también pueden estar disponibles funciones relacionadas con **ubicación**, **IP**, modalidad de trabajo y exportación legal del registro de jornada.
 
-La pantalla dispone de varias perspectivas:
+## La vista Resumen
 
-- **Resumen**: matriz mensual de empleados y días, pensada para detectar rápidamente presencia, ausencia, festivos, vacaciones y otras situaciones.
-- **Empleado**: consulta detallada de la asistencia de una persona.
-- **Por hora**: visión enfocada al tiempo trabajado y a las horas registradas.
-- **Por ubicación**, cuando está disponible: representación de fichajes que contienen coordenadas válidas.
+La vista **Resumen** presenta una matriz de empleados y días del mes. Está diseñada para responder rápidamente a preguntas como: «¿quién no tiene fichaje?», «¿qué días fueron festivos?», «¿quién estaba de vacaciones?» o «¿dónde hay una incidencia que revisar?».
 
-## Estados y leyenda
+La leyenda puede distinguir **Nacional**, **Autonómico**, **Local**, **Vacaciones**, **Día libre**, **Presente**, **Ausente** y **Otros**. No corrijas automáticamente un día marcado como ausencia sin comprobar antes el turno, los festivos y las ausencias aprobadas.
 
-La leyenda permite interpretar la matriz. Según la configuración y los datos del mes pueden aparecer **festivos nacionales, autonómicos o locales, vacaciones, días libres, presente, ausente y otros estados**.
+## Las otras vistas
 
-Una ausencia visual en la matriz no siempre significa que haya que crear un fichaje manualmente. Antes de corregir un día, revisa el turno, los festivos aplicables y las ausencias aprobadas del empleado.
+**Empleado** concentra la información de una persona. **Por Hora** facilita el análisis del tiempo registrado. Cuando está habilitada una vista por ubicación, solo puede representar fichajes que dispongan de coordenadas válidas.
 
-## Qué información puede guardar un fichaje
+## Qué contiene un registro de asistencia
 
-Un registro de asistencia puede contener, además de la fecha y el empleado: turno, hora de entrada, hora de salida, IP de entrada y salida, ubicación de entrada y salida, modalidad de trabajo —oficina, casa u otro lugar—, indicación de retraso, media jornada y observaciones.
+Además del empleado y la fecha, un fichaje puede guardar **turno, hora de entrada, hora de salida, IP, ubicación, modalidad de trabajo —oficina, casa u otro lugar—, retraso, media jornada y observaciones**. Algunos de estos datos se completan automáticamente y otros dependen de la forma en que se haya creado el registro.
 
-SmartGRH valida los registros para reducir inconsistencias. Entre otros controles, puede detectar solapamientos horarios, comprobar medias jornadas y tener en cuenta el turno y los festivos aplicables.
+## Acciones superiores
 
-## Exportaciones
+**Marcar Asistencia** permite crear registros manuales cuando el usuario dispone del permiso correspondiente. **Importar** se utiliza para incorporar datos en bloque. **Exportar** ofrece las salidas disponibles para el periodo y los filtros seleccionados.
 
-SmartGRH dispone de exportación individual, exportación global según los filtros aplicados y **exportación legal de registro de jornada**. La exportación legal está orientada a obtener un documento estructurado del control horario del periodo seleccionado.
+> **Permisos:** que una persona pueda consultar la asistencia no significa necesariamente que pueda crear, editar, borrar, importar o exportar registros.
 
-Continúa con:
+## Continúa según lo que necesites
 
 - [Consultar fichajes](consultar-fichajes.md)
-- [Registrar o corregir un fichaje](registrar-modificar-fichaje.md)
-- [Vistas, filtros y estados](vistas-filtros.md)
-- [Importar y exportar](exportar-importar.md)
-- [Ubicación, IP y modalidad de trabajo](ubicacion-ip-modalidad.md)
+- [Registrar o modificar un fichaje](registrar-modificar-fichaje.md)
+- [Vistas y filtros de asistencia](vistas-filtros.md)
+- [Geolocalización, IP y modalidad](geolocalizacion-ip-modalidad.md)
+- [Incidencias y correcciones](incidencias-y-correcciones.md)
+- [Exportar e importar fichajes](exportar-importar.md)
 - [Registro legal de jornada](registro-legal.md)

@@ -20,8 +20,8 @@ Continúa con:
 
 - [Cuadrante mensual](cuadrante.md)
 - [Asignación masiva](asignacion-masiva.md)
-- [Borrado masivo](borrado-masivo.md)
+- [Borrado masivo](asignacion-masiva.md)
 - [Gestionar tipos de turno](configuracion-turnos.md)
 - [Solicitudes de cambio](cambios-turno.md)
 - [Rotaciones automáticas](rotaciones.md)
-- [Exportar turnos](exportar-turnos.md)
+- [Exportar turnos](cuadrante.md)

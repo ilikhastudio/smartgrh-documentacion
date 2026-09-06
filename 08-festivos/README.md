@@ -7,5 +7,5 @@
 La pantalla dispone de búsqueda, **Agregar festivo**, **Marcar días festivos predeterminados**, vista **Calendario** y **Vista de tabla**.
 
 - [Gestionar festivos](gestion-festivos.md)
-- [Festivos predeterminados](predeterminados.md)
-- [Aplicabilidad](aplicabilidad.md)
+- [Festivos predeterminados](gestion-festivos.md)
+- [Aplicabilidad](tipos-y-aplicacion.md)
