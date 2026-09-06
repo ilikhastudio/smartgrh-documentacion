@@ -1,10 +1,19 @@
 # Gestionar tipos de turno
 
-Desde **Gestionar turnos** se mantienen los horarios que posteriormente se asignan en el cuadrante.
+**Gestionar turnos** contiene las plantillas horarias disponibles para la empresa. Desde aquí se crean, editan y eliminan horarios y se establece el turno predeterminado.
 
-Un turno define la referencia horaria de la jornada. La configuración puede incluir nombre, horas de inicio y finalización, color/identificación visual y otras propiedades disponibles en la instalación.
+## Turno predeterminado
 
-SmartGRH permite establecer un **turno predeterminado**. Este turno puede utilizarse como referencia cuando no existe otra asignación específica, dependiendo de la lógica configurada para la empresa.
+SmartGRH guarda un **turno predeterminado de la empresa**. Sirve como referencia cuando la lógica de asistencia necesita un horario general y no existe una planificación específica aplicable.
 
-> **No cambies un turno histórico sin revisar su impacto**  
-> Si un horario ya se ha utilizado durante meses, valora crear un nuevo turno para el nuevo horario en vez de reutilizar el anterior. Así se mantiene una interpretación más clara de las planificaciones.
+> **Importante:** el turno predeterminado no sustituye la necesidad de planificar correctamente el cuadrante cuando la plantilla trabaja con horarios distintos.
+
+## Editar un turno
+
+La edición permite modificar las mismas reglas disponibles durante el alta: identificación, tipo estricto/flexible, horario u horas objetivo, media jornada, tolerancias, fichajes diarios y días laborables.
+
+Antes de modificar un turno que ya se utiliza, comprueba si el cambio debe afectar realmente a todos los empleados y periodos en los que ese turno sirve de referencia.
+
+## Eliminar un turno
+
+No elimines un horario únicamente porque haya dejado de utilizarse. Si existe histórico relacionado, conservar la plantilla facilita entender planificaciones anteriores. Para un nuevo horario, crea una nueva definición cuando sea necesario preservar esa lectura histórica.

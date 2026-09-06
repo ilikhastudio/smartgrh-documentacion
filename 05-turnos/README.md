@@ -1,27 +1,28 @@
-# Turnos y cuadrantes
+# Turnos y asignación
 
-**Asignación de turnos** permite planificar qué horario corresponde a cada empleado y cada día. Es una de las áreas centrales de SmartGRH porque el turno sirve de referencia para el fichaje, la asistencia y determinadas validaciones de jornada.
+**Asignación de turnos** es el cuadrante de planificación laboral de SmartGRH. Aquí se decide qué horario corresponde a cada empleado en cada fecha y, por tanto, qué referencia utilizará posteriormente el control de asistencia.
 
 ![Asignación de turnos](../assets/capturas/asignacion-turnos.png)
 
-## Elementos de la pantalla
+## Qué ves en esta pantalla
 
-La vista ofrece filtros por **Empleado** y **Departamento**, selección de **Vista mensual**, navegación por año y por meses, y una matriz de empleados frente a días.
+En la parte superior puedes filtrar por **Empleado** y **Departamento** y seleccionar la **Vista mensual**. El año y las pestañas de meses permiten desplazarse por el calendario. La zona central es una matriz: cada fila corresponde a un empleado y cada columna a un día.
 
-Las acciones principales incluyen **Asignar turnos masivos**, **Borrar turnos masivamente**, **Exportar** y **Gestionar turnos**.
+Las acciones de gestión principales son **Asignar turnos masivos**, **Borrar turnos masivamente**, **Exportar** y **Gestionar turnos**. La pestaña **Solicitudes de cambio de turno** separa las peticiones pendientes de la planificación ordinaria.
 
-La pestaña **Resumen** muestra el cuadrante. **Solicitudes de cambio de turno** concentra las peticiones enviadas para modificar un turno asignado.
+## Cómo encaja con Asistencia
 
-## Qué significa una asignación
+Una asignación relaciona **empleado + fecha + turno**. El turno aporta las reglas horarias que SmartGRH utiliza como referencia: inicio y fin cuando el horario es estricto, horas objetivo cuando es flexible, tolerancia de retraso, entrada anticipada, media jornada y otras reglas de fichaje.
 
-Cada celda del cuadrante vincula una fecha, un empleado y un turno. El código o identificador visual de cada turno se interpreta mediante la leyenda mostrada en la pantalla.
+> **Importante:** cambiar el cuadrante no equivale a modificar un fichaje ya registrado. Turnos planifica; Asistencia registra lo que ocurrió.
 
-Continúa con:
+## Flujo recomendado
 
-- [Cuadrante mensual](cuadrante.md)
-- [Asignación masiva](asignacion-masiva.md)
-- [Borrado masivo](asignacion-masiva.md)
-- [Gestionar tipos de turno](configuracion-turnos.md)
-- [Solicitudes de cambio](cambios-turno.md)
-- [Rotaciones automáticas](rotaciones.md)
-- [Exportar turnos](cuadrante.md)
+1. Define los horarios en **Gestionar turnos**.
+2. Comprueba los días laborables y las reglas de cada turno.
+3. Asigna los turnos en el cuadrante, individual o masivamente.
+4. Revisa visualmente el mes antes de dar la planificación por terminada.
+5. Gestiona por separado las solicitudes de cambio.
+6. Si se corrige una jornada ya fichada, revisa también **Asistencia**.
+
+Continúa con [leer el cuadrante](lectura-pantalla-turnos.md), [crear un turno](crear-turno.md), [asignación masiva](asignacion-masiva.md) o [cambios de turno](cambios-turno.md).

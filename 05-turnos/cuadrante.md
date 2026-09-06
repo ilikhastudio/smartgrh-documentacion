@@ -1,17 +1,23 @@
 # Cuadrante mensual de turnos
 
-El cuadrante muestra una fila por empleado y una columna por día. Utiliza el selector de año y las pestañas de meses para navegar por el periodo.
+El cuadrante muestra la planificación por empleado y fecha. Utiliza el selector de año y las pestañas mensuales para situarte en el periodo correcto.
 
-## Asignar un turno a un día
+## Asignación individual
 
-Cuando el usuario dispone de permisos de gestión, puede utilizar la acción de marcado sobre una combinación empleado/fecha para crear o cambiar la asignación.
+Cuando tienes permisos de gestión puedes actuar sobre una combinación de **empleado + fecha** para crear o modificar la asignación. Antes de hacerlo, verifica que el horario correcto existe en **Gestionar turnos**.
 
-Antes de asignar, comprueba que el turno existe en **Gestionar turnos** y que sus horas están correctamente configuradas.
+## Más de un turno
 
-## Calendario individual
+La lógica de planificación admite asignaciones diferenciadas y las operaciones masivas permiten seleccionar varios turnos. Evita crear combinaciones que no representen una jornada real; el cuadrante debe seguir siendo una referencia comprensible para Asistencia.
 
-SmartGRH dispone de una consulta de calendario de turnos por empleado. Resulta útil para revisar la planificación de una persona fuera de la matriz general.
+## Calendario de un empleado
+
+SmartGRH dispone de una consulta de calendario de turnos por empleado. Es útil cuando quieres revisar la planificación individual sin recorrer toda la matriz del equipo.
 
 ## Turnos nocturnos
 
-Los turnos que terminan al día siguiente requieren una configuración horaria coherente. Esta información también afecta a cómo se interpreta una salida de asistencia posterior a medianoche.
+Un turno puede atravesar medianoche. En ese caso, la hora de salida pertenece a la continuidad de la jornada iniciada el día anterior. Comprueba especialmente estos horarios al contrastar cuadrante y fichajes.
+
+## Turno frente a fichaje
+
+El cuadrante indica **lo planificado**. Asistencia refleja **lo registrado**. Si corriges un turno después de que el empleado haya fichado, revisa ambos apartados; modificar la planificación no debe utilizarse como sustituto de una corrección de asistencia.

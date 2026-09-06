@@ -1,10 +1,9 @@
 # Rotaciones automáticas de turnos
 
-SmartGRH incluye funciones de **rotación de turnos** dentro de los ajustes de asistencia. Permiten definir rotaciones, asociar empleados, cambiar su estado y ejecutar la rotación.
+SmartGRH contiene soporte administrativo para **rotaciones de turnos**: creación de rotaciones, asociación de empleados, activación/desactivación, automatización y ejecución del proceso.
 
-La gestión incluye operaciones para automatizar la planificación, administrar empleados de una rotación, cambiar la rotación asignada y ejecutar el proceso de rotación.
+> **Función opcional:** no debe esperarse esta opción en todas las empresas. Su visibilidad depende de la configuración y permisos de la instalación.
 
-Esta es una función administrativa. Antes de ejecutar una rotación sobre un periodo ya planificado, comprueba el cuadrante existente para evitar sustituir asignaciones que deban conservarse.
+Cuando esté habilitada, utiliza las rotaciones para patrones repetitivos que no resulte práctico mantener manualmente. Antes de ejecutar una rotación sobre un periodo ya planificado, revisa el cuadrante existente para evitar sobrescribir o contradecir una planificación que deba conservarse.
 
-> **Disponibilidad**  
-> Esta función puede no mostrarse en todas las empresas. Depende de configuración y permisos.
+Para una planificación ordinaria sin rotación automática utiliza **Asignar turnos masivos**.

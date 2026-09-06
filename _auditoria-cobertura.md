@@ -43,3 +43,7 @@ Revisado contra rutas, controladores, requests y vistas activas:
 - Reconocimiento: tipos de premio, alta, edición, borrado y permisos.
 
 Se excluyen deliberadamente de la documentación las pestañas y acciones de módulos genéricos de Worksuite que no forman parte del alcance laboral de SmartGRH.
+
+## Revisión v1.4 — Turnos
+
+Se ha contrastado el bloque de turnos con `EmployeeShiftController`, `EmployeeShiftChangeRequestController`, `EmployeeShiftScheduleController` y las vistas activas de `employee-shifts` y `shift-rosters`. Se documentan horario estricto/flexible, días laborables, turno predeterminado, asignación individual y masiva, patrón semanal, prevención de duplicados exactos, fecha de incorporación, borrado masivo, turnos nocturnos y solicitudes de cambio. Las rotaciones permanecen identificadas como función opcional/administrativa.

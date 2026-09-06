@@ -1,21 +1,39 @@
 # Crear y configurar un turno
 
-Los turnos definen la referencia horaria con la que SmartGRH planifica y evalúa la jornada de los empleados.
+Los turnos son las plantillas horarias que después se asignan en el cuadrante. Se administran desde **Asignación de turnos → Gestionar turnos**.
 
-## Datos del turno
+## Tipo de turno
 
-Al crear un turno pueden configurarse, según el tipo seleccionado: **nombre**, **código corto**, **color**, hora de inicio, hora de fin, total de horas del turno, horas de media jornada, reglas de salida automática, hora de referencia para media jornada, margen de entrada anticipada, margen para marcar retraso, número de fichajes diarios y días de apertura de la oficina.
+SmartGRH contempla **horario estricto** y **horario flexible**.
 
-## Turno estricto o flexible
+En un turno **estricto** se definen horas concretas de inicio y finalización. En uno **flexible**, SmartGRH trabaja con el total de horas objetivo y las reglas específicas del horario flexible; internamente el intervalo diario queda abierto para permitir esa flexibilidad.
 
-SmartGRH contempla turnos de horario **estricto** y **flexible**. La elección condiciona cómo se aplican algunos campos horarios y cómo debe interpretarse la jornada.
+## Identificación
 
-## Código corto y color
+**Nombre del turno** describe el horario, por ejemplo `Mañana`. **Código corto** permite reconocerlo rápidamente en el cuadrante y **color** diferencia visualmente unas planificaciones de otras.
 
-El código corto facilita identificar el turno dentro del cuadrante. El color ayuda a distinguir visualmente distintas planificaciones.
+## Horario estricto
 
-## Turno predeterminado
+Configura **hora de inicio** y **hora de fin**. Si el turno termina después de medianoche, SmartGRH debe interpretar la salida dentro de la continuidad de esa jornada; por eso conviene comprobar especialmente los turnos nocturnos después de crearlos.
 
-En la configuración de turnos existe la posibilidad de establecer un turno como predeterminado. Utilízalo para el horario habitual de la organización cuando proceda.
+También puedes definir:
 
-> **Importante:** modificar la definición de un turno puede afectar a la interpretación de jornadas futuras. Revisa especialmente hora de inicio/fin, tolerancias y media jornada.
+- **Salida automática:** margen/regla utilizada por el sistema para el cierre automático cuando corresponda.
+- **Hora de media jornada:** referencia para la consideración de media jornada.
+- **Entrada anticipada:** cuánto antes puede comenzar el fichaje respecto al inicio previsto.
+- **Margen de retraso:** tolerancia antes de marcar una entrada como tardía.
+- **Entradas al día:** número de fichajes de entrada permitidos según la organización de la jornada.
+
+## Horario flexible
+
+En los turnos flexibles se configuran **horas totales del turno**, **horas correspondientes a media jornada** y la regla de **salida automática** del horario flexible.
+
+## Días laborables
+
+En **Días de apertura** selecciona los días de la semana en los que el turno puede utilizarse. Esta configuración es importante en las operaciones masivas: SmartGRH omite la asignación de ese turno en días que no estén habilitados para él.
+
+## Guardar y probar
+
+Guarda el turno, comprueba que aparece en **Gestionar turnos** y realiza una asignación de prueba en el cuadrante. Si será el horario habitual, puede establecerse como **turno predeterminado**.
+
+> **Recomendación:** si cambia de forma permanente un horario que ya tiene histórico, suele ser más claro crear un turno nuevo que alterar el significado del anterior.

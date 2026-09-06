@@ -29,6 +29,7 @@
   * [Departamentos](04-organizacion/departamentos.md)
   * [Designaciones](04-organizacion/cargos.md)
 * [Turnos y asignación](05-turnos/README.md)
+  * [Cómo leer el cuadrante de turnos](05-turnos/lectura-pantalla-turnos.md)
   * [Crear y configurar un turno](05-turnos/crear-turno.md)
   * [Configuración de turnos](05-turnos/configuracion-turnos.md)
   * [Cuadrante](05-turnos/cuadrante.md)
